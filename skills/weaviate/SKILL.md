@@ -9,6 +9,9 @@ metadata:
   version: 1.0.0
   category: database
   tags: [weaviate, vector-database, semantic-search, rag, embeddings, production, replication]
+trace_id: 7dd1bba74e9c
+generated_at: '2026-02-28T22:43:34'
+generator: sharpskill-v1.0 (legacy)
 ---
 
 # Weaviate Skill
