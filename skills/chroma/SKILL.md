@@ -9,9 +9,6 @@ metadata:
   version: 1.0.0
   category: ai
   tags: [chroma, chromadb, vector-database, embeddings, semantic-search, rag, llm, langchain]
-trace_id: 92d9493537e9
-generated_at: '2026-02-28T22:43:21'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # Chroma Skill
