@@ -9,9 +9,6 @@ metadata:
   version: 1.0.0
   category: database
   tags: [drizzle, orm, typescript, postgresql, mysql, sqlite, migrations, serverless]
-trace_id: 858e12ef04a8
-generated_at: '2026-02-28T22:43:23'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # Drizzle ORM Skill
