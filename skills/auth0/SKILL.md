@@ -9,9 +9,6 @@ metadata:
   version: 1.1.0
   category: development
   tags: [auth0, authentication, authorization, jwt, oauth2, oidc, security, nodejs]
-trace_id: 7b1295ad24e5
-generated_at: '2026-02-28T22:43:17'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # Auth0
