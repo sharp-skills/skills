@@ -9,9 +9,6 @@ metadata:
   version: 1.0.0
   category: devops
   tags: [docker, containers, devops, orchestration, images, networking]
-trace_id: f0c9c97506db
-generated_at: '2026-02-28T22:43:23'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # Docker Skill
