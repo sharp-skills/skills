@@ -9,9 +9,6 @@ metadata:
   version: 1.0.0
   category: database
   tags: [elasticsearch, search, indexing, full-text-search, python, rest-api]
-trace_id: a56db427f6f6
-generated_at: '2026-02-28T22:43:24'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # Elasticsearch Skill
