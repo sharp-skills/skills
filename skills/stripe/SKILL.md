@@ -9,6 +9,9 @@ metadata:
   version: 1.0.0
   category: development
   tags: [stripe, payments, billing, subscriptions, webhooks, checkout]
+trace_id: e4f76969abb0
+generated_at: '2026-02-28T22:43:32'
+generator: sharpskill-v1.0 (legacy)
 ---
 
 # Stripe Skill
