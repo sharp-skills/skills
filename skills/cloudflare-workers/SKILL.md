@@ -9,9 +9,6 @@ metadata:
   version: 1.0.0
   category: devops
   tags: [cloudflare-workers, hono, edge-computing, rate-limiting, retry, idempotency, kv-storage, production]
-trace_id: d4cb0e75730f
-generated_at: '2026-02-28T22:43:22'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # Cloudflare Workers Skill
