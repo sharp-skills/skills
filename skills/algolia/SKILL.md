@@ -10,9 +10,6 @@ metadata:
   version: 1.1.0
   category: development
   tags: [algolia, search, full-text-search, javascript, python, indexing, facets]
-trace_id: 44997b429f17
-generated_at: '2026-02-28T22:43:15'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # Algolia
