@@ -9,9 +9,6 @@ metadata:
   version: 1.0.0
   category: database
   tags: [supabase, postgresql, pgbouncer, rls, jwt, migrations, connection-pooling, production]
-trace_id: 809219211195
-generated_at: '2026-02-28T22:43:33'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # Supabase Production Skill
