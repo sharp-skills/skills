@@ -1,0 +1,290 @@
+{
+  "started": "2026-02-27T23:29:42.501580",
+  "tools": {
+    "twilio": {
+      "status": "SKIP"
+    },
+    "sendgrid": {
+      "status": "PASS"
+    },
+    "resend": {
+      "status": "FAIL",
+      "stage": "pipeline"
+    },
+    "plaid": {
+      "status": "FAIL",
+      "stage": "pipeline"
+    },
+    "openai": {
+      "status": "FAIL",
+      "stage": "pipeline"
+    },
+    "anthropic": {
+      "status": "PASS"
+    },
+    "langchain": {
+      "status": "PASS"
+    },
+    "pinecone": {
+      "status": "PASS"
+    },
+    "weaviate": {
+      "status": "PASS"
+    },
+    "chroma": {
+      "status": "PASS"
+    },
+    "llamaindex": {
+      "status": "FAIL",
+      "stage": "pipeline"
+    },
+    "postgresql": {
+      "status": "FAIL",
+      "stage": "pipeline"
+    },
+    "mysql": {
+      "status": "PASS"
+    },
+    "mongodb": {
+      "status": "PASS"
+    },
+    "redis": {
+      "status": "PASS"
+    },
+    "sqlite": {
+      "status": "FAIL",
+      "stage": "pipeline"
+    },
+    "prisma": {
+      "status": "FAIL",
+      "stage": "pipeline"
+    },
+    "drizzle": {
+      "status": "FAIL",
+      "stage": "pipeline"
+    },
+    "supabase": {
+      "status": "FAIL",
+      "stage": "pipeline"
+    },
+    "aws-s3": {
+      "status": "SKIP"
+    },
+    "aws-lambda": {
+      "status": "SKIP"
+    },
+    "aws-sdk": {
+      "status": "PASS"
+    },
+    "google-cloud-storage": {
+      "status": "PASS"
+    },
+    "cloudflare-workers": {
+      "status": "FAIL",
+      "stage": "pipeline"
+    },
+    "vercel": {
+      "status": "PUSH_FAIL"
+    },
+    "docker": {
+      "status": "SKIP"
+    },
+    "kubernetes": {
+      "status": "SKIP"
+    },
+    "terraform": {
+      "status": "SKIP"
+    },
+    "ansible": {
+      "status": "PASS"
+    },
+    "jwt": {
+      "status": "PASS"
+    },
+    "oauth2": {
+      "status": "PASS"
+    },
+    "passport": {
+      "status": "PASS"
+    },
+    "bcrypt": {
+      "status": "PASS"
+    },
+    "nextauth": {
+      "status": "FAIL",
+      "stage": "pipeline"
+    },
+    "clerk": {
+      "status": "PASS"
+    },
+    "axios": {
+      "status": "PASS"
+    },
+    "fetch-api": {
+      "status": "PASS"
+    },
+    "graphql": {
+      "status": "SKIP"
+    },
+    "rest-api": {
+      "status": "PASS"
+    },
+    "websocket": {
+      "status": "PASS"
+    },
+    "grpc": {
+      "status": "PASS"
+    },
+    "fastapi": {
+      "status": "SKIP"
+    },
+    "express": {
+      "status": "SKIP"
+    },
+    "nestjs": {
+      "status": "PASS"
+    },
+    "hono": {
+      "status": "PASS"
+    },
+    "jest": {
+      "status": "SKIP"
+    },
+    "vitest": {
+      "status": "PASS"
+    },
+    "pytest": {
+      "status": "SKIP"
+    },
+    "playwright": {
+      "status": "PUSH_FAIL"
+    },
+    "cypress": {
+      "status": "PASS"
+    },
+    "supertest": {
+      "status": "PUSH_FAIL"
+    },
+    "github-actions": {
+      "status": "SKIP"
+    },
+    "gitlab-ci": {
+      "status": "PASS"
+    },
+    "nginx": {
+      "status": "SKIP"
+    },
+    "pm2": {
+      "status": "PASS"
+    },
+    "prometheus": {
+      "status": "SKIP"
+    },
+    "grafana": {
+      "status": "SKIP"
+    },
+    "datadog": {
+      "status": "SKIP"
+    },
+    "sentry": {
+      "status": "SKIP"
+    },
+    "multer": {
+      "status": "PASS"
+    },
+    "sharp": {
+      "status": "PASS"
+    },
+    "ffmpeg": {
+      "status": "PASS"
+    },
+    "pdf-lib": {
+      "status": "PASS"
+    },
+    "exceljs": {
+      "status": "PASS"
+    },
+    "csv-parse": {
+      "status": "PASS"
+    },
+    "bull": {
+      "status": "PASS"
+    },
+    "kafka": {
+      "status": "SKIP"
+    },
+    "rabbitmq": {
+      "status": "SKIP"
+    },
+    "celery": {
+      "status": "SKIP"
+    },
+    "elasticsearch": {
+      "status": "SKIP"
+    },
+    "meilisearch": {
+      "status": "PASS"
+    },
+    "algolia": {
+      "status": "PASS"
+    },
+    "nodemailer": {
+      "status": "PASS"
+    },
+    "mailgun": {
+      "status": "PASS"
+    },
+    "pusher": {
+      "status": "PASS"
+    },
+    "socket-io": {
+      "status": "SKIP"
+    },
+    "ioredis": {
+      "status": "PASS"
+    },
+    "memcached": {
+      "status": "PASS"
+    },
+    "varnish": {
+      "status": "PASS"
+    },
+    "react-query": {
+      "status": "PASS"
+    },
+    "zustand": {
+      "status": "PASS"
+    },
+    "zod": {
+      "status": "SKIP"
+    },
+    "yup": {
+      "status": "PASS"
+    },
+    "date-fns": {
+      "status": "PASS"
+    },
+    "lodash": {
+      "status": "PASS"
+    },
+    "uuid": {
+      "status": "PASS"
+    },
+    "dotenv": {
+      "status": "PASS"
+    },
+    "winston": {
+      "status": "PASS"
+    },
+    "pino": {
+      "status": "PASS"
+    }
+  },
+  "finished": "2026-02-28T00:27:39.699685",
+  "summary": {
+    "total": 89,
+    "passed": 52,
+    "failed": 14,
+    "skipped": 23
+  }
+}

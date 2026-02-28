@@ -1,0 +1,66 @@
+{
+  "skill_name": "pinecone",
+  "trace_id": "0fb309915d13",
+  "tested_at": "2026-02-27T23:42:32.940515",
+  "final_status": "PENDING",
+  "overall_score": 0.5,
+  "auto_fixed": false,
+  "fix_attempts": 0,
+  "results": [
+    {
+      "level": "L1",
+      "name": "Syntax Check",
+      "status": "PASS",
+      "score": 1.0,
+      "details": [
+        "\u2705 Python block #1: valid syntax",
+        "\u2705 Python block #2: valid syntax",
+        "\u2705 Python block #3: valid syntax",
+        "\u2705 Python block #4: valid syntax",
+        "\u2705 Python block #5: valid syntax",
+        "\u2705 Python block #6: valid syntax",
+        "\u2705 Python block #7: valid syntax",
+        "\u2705 Python block #8: valid syntax",
+        "\u2705 Python block #9: valid syntax",
+        "\u2705 Bash block #1: valid syntax"
+      ],
+      "errors": []
+    },
+    {
+      "level": "L2",
+      "name": "Dependencies Check",
+      "status": "PASS",
+      "score": 1.0,
+      "details": [
+        "\u2705 pip:boto3 exists (1.42.59)",
+        "\u2705 pip:pinecone exists (8.1.0)"
+      ],
+      "errors": []
+    },
+    {
+      "level": "L3",
+      "name": "Sandbox Execution",
+      "status": "PASS",
+      "score": 0.0,
+      "details": [
+        "\u26a0\ufe0f  Block #1: missing package (needs install)",
+        "\u26a0\ufe0f  Block #2: missing package (needs install)",
+        "\u26a0\ufe0f  Block #3: missing package (needs install)",
+        "\u26a0\ufe0f  Block #4: missing package (needs install)",
+        "\u26a0\ufe0f  Block #5: missing package (needs install)"
+      ],
+      "errors": []
+    },
+    {
+      "level": "L4",
+      "name": "Mock API Test",
+      "status": "PASS",
+      "score": 0.0,
+      "details": [
+        "\u26a0\ufe0f  Block #1: mock runtime issue: Traceback (most recent call last):\n  File \"/tmp/tmpnx_b5mv5/mock_test.py\", line 16, in <module>\n    from pinecone import Pinecone, ServerlessSpec\nModu",
+        "\u26a0\ufe0f  Block #2: mock runtime issue: Traceback (most recent call last):\n  File \"/tmp/tmpfp_3cq5e/mock_test.py\", line 18, in <module>\n    from pinecone import Pinecone\nModuleNotFoundError:"
+      ],
+      "errors": []
+    }
+  ]
+}
