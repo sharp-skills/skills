@@ -9,6 +9,9 @@ metadata:
   version: 1.0.0
   category: devops
   tags: [aws-s3, multipart-upload, vpc-endpoint, block-public-access, prefix-partitioning, boto3, s3-throughput]
+trace_id: e58ce8f7f7e8
+generated_at: '2026-02-28T22:43:19'
+generator: sharpskill-v1.0 (legacy)
 ---
 
 # AWS S3 Skill
