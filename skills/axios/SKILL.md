@@ -10,9 +10,6 @@ metadata:
   version: 1.1.0
   category: development
   tags: [axios, http, rest-api, javascript, typescript, requests, interceptors, nodejs]
-trace_id: 48a815dfb2f0
-generated_at: '2026-02-28T22:43:21'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # Axios
