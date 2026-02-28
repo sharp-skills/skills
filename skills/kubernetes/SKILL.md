@@ -9,9 +9,6 @@ metadata:
   version: 1.0.0
   category: devops
   tags: [kubernetes, k8s, containers, orchestration, devops, cloud-native, pods, deployments]
-trace_id: a79bbc02d9c2
-generated_at: '2026-02-28T22:43:27'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # Kubernetes Skill
