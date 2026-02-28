@@ -9,6 +9,9 @@ metadata:
   version: 1.0.0
   category: database
   tags: [aws-dynamodb, dynamodb, aws, global-tables, vpc-endpoints, iam, backoff, replication]
+trace_id: 8774d8ba3eeb
+generated_at: '2026-02-28T22:43:18'
+generator: sharpskill-v1.0 (legacy)
 ---
 
 # AWS DynamoDB Skill
