@@ -9,9 +9,6 @@ metadata:
   version: 1.0.0
   category: database
   tags: [mysql, node.js, connection-pool, sql-injection, transactions, deadlocks, slow-query]
-trace_id: 88f870b783b7
-generated_at: '2026-02-28T22:43:28'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # MySQL Skill
