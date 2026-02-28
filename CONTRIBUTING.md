@@ -1,174 +1,171 @@
 # Contributing to SharpSkills
 
-Thank you for your interest in contributing. SharpSkills is built on one principle: **quality over quantity**. Every skill must solve a real problem, be accurate, and pass automated testing before it reaches users.
+SharpSkills is built on one principle: **quality over quantity**.
+Every skill must contain real, working code — written from official documentation, not generated placeholders.
 
 Use cases come first — they define the real problems people face. Skills are the tools we build to solve them.
 
 ---
 
+## The Standard: What "Real" Means
+
+Before writing a skill, look at [`skills/stripe/SKILL.md`](skills/stripe/SKILL.md) or [`skills/express/SKILL.md`](skills/express/SKILL.md) as the gold standard.
+
+A skill is **real** when:
+- Every code snippet runs without modification (no TODOs, no `// ...`, no placeholder values)
+- Package names in `npm install` / `pip install` actually exist on npm/PyPI
+- Patterns come from the tool's official docs or real GitHub Issues/Stack Overflow
+- The Failure Modes table lists errors users actually encounter (copied from real issues)
+- Pre-Deploy Checklist reflects production experience
+
+A skill is **not acceptable** when it contains:
+- `// TODO: ...` or placeholder comments
+- `require('jira')` / `require('algolia')` when no such npm package exists
+- Generic errors like "Auth error | Invalid API key | Check environment variable"
+- AI-generated guesses about an API without reading the actual docs
+
+---
+
+## Skill Structure
+
+```
+skills/your-skill-name/
+└── SKILL.md         # Required. Exact filename, case-sensitive.
+```
+
+No `README.md` inside the skill folder.
+
+### SKILL.md Template
+
+```markdown
+---
+name: your-skill-name
+description: >-
+  What it does and when to use it. Use when asked to: list 6-8 specific
+  trigger phrases that match what users actually type.
+license: Apache-2.0
+compatibility:
+  - node >= 18
+  - python >= 3.9
+metadata:
+  author: your-github-username
+  version: 1.0.0
+  category: development
+  tags:
+    - primary-tag
+    - secondary-tag
+    - language
+    - use-case
+---
+
+# Tool Name
+
+One-paragraph summary: what it is, why you'd use it, what it's best for.
+
+## Installation
+
+npm install actual-package-name
+
+## Quick Start
+
+Minimal working example — copy-paste and run.
+
+## When to Use
+
+- "phrase users actually type"
+- "another real trigger phrase"
+
+## Core Patterns
+
+### Pattern 1: Name
+
+Real code. 3-5 patterns total.
+
+## Production Notes
+
+Numbered gotchas from official docs and real GitHub Issues.
+
+## Failure Modes
+
+| Symptom | Root Cause | Fix |
+|---------|-----------|-----|
+| Exact error message | Why it happens | Specific fix |
+
+## Pre-Deploy Checklist
+
+- [ ] Specific checklist item
+
+## Resources
+
+- Docs: https://...
+- GitHub: https://...
+```
+
+---
+
+## Before Writing a Skill
+
+1. **Read the official docs** — Getting Started + API reference minimum
+2. **Check real issues** — GitHub Issues + Stack Overflow for common errors → Failure Modes
+3. **Test the Quick Start** — run it locally to confirm it works
+4. **Verify package names** — `npm info <package>` or `pip index versions <package>`
+
+---
+
 ## Creating a Use Case
 
-Use cases are problem-first guides that show how AI agents solve real challenges. They live in the `use-cases/` directory.
-
-A use case can stand on its own. If no skill exists yet for the problem you're describing, that's fine — your use case helps identify what skills need to be built.
-
-### 1. Pick a Real Problem
-
-Every use case starts with a pain point someone actually has. Ask:
-
-- Is this a problem developers encounter regularly?
-- Can I describe a specific persona who faces this problem?
-- Does the walkthrough lead to a concrete, measurable outcome?
-
-### 2. Create the File
+Use cases live in `use-cases/` and describe problems, not tools.
 
 ```bash
 touch use-cases/your-use-case-slug.md
 ```
 
-Filenames use lowercase kebab-case matching the slug field (e.g., `handle-stripe-webhooks.md`).
-
-### 3. Write the Use Case
+Template:
 
 ```markdown
 ---
 title: "Action-Oriented Title"
 slug: your-use-case-slug
 description: "One sentence explaining the use case."
-skills: [skill-name]  # omit if no matching skills exist yet
+skills: [skill-name]
 category: development
-tags: [tag1, tag2, tag3]
+tags: [tag1, tag2]
 ---
 
 ## The Problem
-Describe the specific pain point. Be concrete.
+Concrete pain point.
 
 ## The Solution
-Explain the approach in 2-3 sentences.
+2-3 sentences. Name the skills.
 
 ## Step-by-Step Walkthrough
 
 ### 1. First step
-Tell the reader exactly what to say to the AI agent:
-```
-The exact prompt the user would type.
-```
+
+Exact prompt: "Add Stripe subscriptions to my Express app"
 
 ## Real-World Example
-A specific persona, a specific situation, a specific outcome.
+Specific persona + situation + outcome.
 
 ## Related Skills
-- [skill-name](../skills/skill-name/) — What it adds to this workflow
+- [stripe](../skills/stripe/) — payment processing patterns
 ```
-
----
-
-## Creating a New Skill
-
-Before creating a skill, ask:
-
-- What use case does this serve?
-- Would a developer use this at least weekly?
-- Is this covered by the official documentation, real GitHub Issues, or Stack Overflow?
-
-### 1. Create the Directory
-
-```bash
-mkdir -p skills/your-skill-name
-```
-
-Skill names use lowercase kebab-case (e.g., `stripe`, `rate-limit-handling`).
-
-### 2. Write the SKILL.md
-
-```markdown
----
-name: your-skill-name
-description: "What it does. Use when asked to: list 6-8 trigger phrases."
-license: Apache-2.0
-metadata:
-  author: your-github-username
-  version: "1.0.0"
-  category: development
-  tags: ["tag1", "tag2", "tag3"]
----
-
-# Skill Name
-
-## Quick Start
-Install command + minimal working example.
-
-## When to Use
-Trigger phrases — what the user would actually say.
-
-## Core Patterns
-2-4 real production patterns with code.
-
-## Production Notes
-Common gotchas from real GitHub Issues and Stack Overflow.
-
-## Failure Modes
-| Symptom | Root Cause | Fix |
-
-## Pre-Deploy Checklist
-- [ ] Item 1
-```
-
-### 3. Test Before Submitting
-
-Every skill must pass 4 automated tests:
-
-```bash
-python sharpskill.py run --tool your-skill-name --no-push
-```
-
-| Level | What it checks |
-|---|---|
-| L1 | Syntax — valid Python, JS, Bash, YAML |
-| L2 | Dependencies — packages exist on npm / PyPI |
-| L3 | Sandbox — code runs without crashing |
-| L4 | Mock API — API calls are structurally valid |
-
-**Score must be 100% to submit.** Skills with failures go to `drafts/` and are marked `[BETA]`.
-
----
-
-## Skill Quality Guidelines
-
-**What makes a good skill:**
-- Serves a real use case developers face regularly
-- Instructions are precise enough that an AI can follow them without guessing
-- Examples use realistic data, not lorem ipsum or placeholder values
-- Covers failure modes and how to recover from them
-- Works across different AI tools — not vendor-specific
-
-**What to avoid:**
-- Skills without a clear use case
-- Vague instructions like "process the data" without explaining how
-- Skills that duplicate built-in tool capabilities
-- Placeholder content or generic examples
-- Instructions longer than 300 lines (split into multiple skills instead)
 
 ---
 
 ## Submitting a Pull Request
 
-### For a New Use Case
+New skill:
+```bash
+git checkout -b add-skill/your-skill-name
+git commit -m "Add skill: your-skill-name"
+```
 
-1. Fork the repository
-2. Create a branch: `git checkout -b add-use-case/your-use-case-slug`
-3. Add `use-cases/your-use-case-slug.md`
-4. Update the use cases list in `README.md`
-5. Submit a PR with title: `Add use case: your-use-case-slug`
-
-### For a New Skill
-
-1. Fork the repository
-2. Create a branch: `git checkout -b add-skill/your-skill-name`
-3. Add `skills/your-skill-name/SKILL.md`
-4. Run `python sharpskill.py run --tool your-skill-name --no-push` — score must be 100%
-5. Update the skills table in `README.md`
-6. Submit a PR with title: `Add skill: your-skill-name`
+New use case:
+```bash
+git checkout -b add-use-case/your-slug
+git commit -m "Add use case: your-slug"
+```
 
 ---
 
@@ -176,19 +173,17 @@ python sharpskill.py run --tool your-skill-name --no-push
 
 | Category | Description |
 |---|---|
-| `documents` | PDF, Word, document processing |
-| `development` | Code review, testing, refactoring |
-| `data-ai` | Data analysis, ML, AI integrations |
-| `devops` | Docker, CI/CD, infrastructure |
-| `business` | Spreadsheets, reports, billing |
-| `design` | UI/UX, design systems |
-| `automation` | Web scraping, workflow automation |
-| `research` | Search, summarization, analysis |
-| `productivity` | Git, documentation, tooling |
-| `content` | Writing, markdown, documentation |
+| `development` | APIs, SDKs, libraries, frameworks |
+| `devops` | Docker, CI/CD, infrastructure, Kubernetes |
+| `data-ai` | Databases, ML, AI, vector stores |
+| `security` | Auth, JWT, secrets, encryption |
+| `testing` | Unit, integration, E2E testing |
+| `observability` | Logging, metrics, tracing |
+| `messaging` | Queues, pub/sub, real-time |
+| `storage` | Files, object storage, CDN |
+| `productivity` | Git, CLI tools, workflow |
+| `content` | Email, SMS, notifications |
 
 ---
 
-## Questions
-
-Open an issue on GitHub.
+Questions? Open an issue on GitHub.
