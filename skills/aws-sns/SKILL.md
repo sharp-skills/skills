@@ -9,6 +9,9 @@ metadata:
   version: 1.0.0
   category: devops
   tags: [aws-sns, pub-sub, messaging, dead-letter-queue, fifo, cross-account, idempotency, fanout]
+trace_id: 06787bdd04c3
+generated_at: '2026-02-28T22:43:20'
+generator: sharpskill-v1.0 (legacy)
 ---
 
 # AWS SNS Skill
