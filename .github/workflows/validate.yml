@@ -1,0 +1,76 @@
+name: Validate Skills
+
+on:
+  push:
+    paths: ['skills/**']
+  pull_request:
+    paths: ['skills/**']
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Validate all SKILL.md files
+        run: |
+          python3 - <<'EOF'
+          import sys
+          from pathlib import Path
+          import yaml
+
+          skills_dir = Path("skills")
+          passed = 0
+          failed = 0
+
+          for skill_md in sorted(skills_dir.glob("*/SKILL.md")):
+              name = skill_md.parent.name
+              content = skill_md.read_text()
+
+              # Extract YAML front matter
+              if not content.startswith("---"):
+                  print(f"❌ {name}: missing YAML front matter")
+                  failed += 1
+                  continue
+
+              parts = content.split("---", 2)
+              if len(parts) < 3:
+                  print(f"❌ {name}: malformed YAML front matter")
+                  failed += 1
+                  continue
+
+              try:
+                  fm = yaml.safe_load(parts[1])
+              except yaml.YAMLError as e:
+                  print(f"❌ {name}: invalid YAML — {str(e)[:100]}")
+                  failed += 1
+                  continue
+
+              # Check required fields
+              errors = []
+              if not fm.get("name"):
+                  errors.append("missing name")
+              if not fm.get("description"):
+                  errors.append("missing description")
+              if not fm.get("license"):
+                  errors.append("missing license")
+
+              if errors:
+                  print(f"❌ {name}: {', '.join(errors)}")
+                  failed += 1
+              else:
+                  print(f"✅ {name}")
+                  passed += 1
+
+          print(f"\n✅ {passed} valid  ❌ {failed} invalid")
+
+          if failed > 0:
+              sys.exit(1)
+          EOF
