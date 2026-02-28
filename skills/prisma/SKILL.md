@@ -9,6 +9,9 @@ metadata:
   version: 1.0.0
   category: database
   tags: [prisma, orm, postgresql, connection-pool, serverless, n-plus-one, typescript, performance]
+trace_id: 199064ad6672
+generated_at: '2026-02-28T22:43:30'
+generator: sharpskill-v1.0 (legacy)
 ---
 
 # Prisma Production Depth Skill
