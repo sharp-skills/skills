@@ -9,9 +9,6 @@ metadata:
   version: 1.0.0
   category: development
   tags: [fastapi, python, async, jwt, rate-limiting, sqlalchemy, pydantic, rest-api, production]
-trace_id: 01496dd3d422
-generated_at: '2026-02-28T22:43:25'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # FastAPI Production Skill
