@@ -9,9 +9,6 @@ metadata:
   version: 1.0.0
   category: database
   tags: [firebase, firestore, authentication, realtime-database, cloud-functions, storage, fcm, analytics]
-trace_id: 79f0077c27bd
-generated_at: '2026-02-28T22:43:26'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # Firebase Skill
