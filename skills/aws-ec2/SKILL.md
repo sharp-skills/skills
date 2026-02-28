@@ -9,6 +9,9 @@ metadata:
   version: 1.0.0
   category: devops
   tags: [aws-ec2, imdsv2, nitro, placement-groups, enhanced-networking, instance-store, ebs, cloud-infrastructure]
+trace_id: 66399d48ab3b
+generated_at: '2026-02-28T22:43:19'
+generator: sharpskill-v1.0 (legacy)
 ---
 
 # AWS EC2 Skill
