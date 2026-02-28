@@ -9,6 +9,9 @@ metadata:
   version: 1.0.0
   category: database
   tags: [pinecone, vector-database, embeddings, semantic-search, rag, multi-tenant, production]
+trace_id: 0bc02e75b898
+generated_at: '2026-02-28T22:43:29'
+generator: sharpskill-v1.0 (legacy)
 ---
 
 # Pinecone Skill
