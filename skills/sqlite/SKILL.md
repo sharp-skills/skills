@@ -9,9 +9,6 @@ metadata:
   version: 1.0.0
   category: database
   tags: [sqlite, node, typescript, wal, corruption, vacuum, migrations, concurrency, pooling]
-trace_id: 6b966a9bf1f5
-generated_at: '2026-02-28T22:43:31'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # SQLite Skill
