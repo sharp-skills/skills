@@ -2,6 +2,8 @@
 name: elasticsearch
 description: "Connects to Elasticsearch clusters and performs full-text search, document indexing, querying, and cluster management. Use when asked to: search documents in Elasticsearch, index or bulk-insert records, build bool/must/should queries, configure index mappings and settings, handle cluster health and shard issues, delete or update documents by query, list all indices on a cluster, fix read-only index errors from disk watermark exceeded."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

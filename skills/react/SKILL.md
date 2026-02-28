@@ -2,11 +2,13 @@
 name: react
 description: Work with react — integrate, configure, and automate. Use when asked to set up react, use react API, integrate react into a project, troubleshoot react errors, or build react automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [react]
+  tags: [react, api, automation, integration]
 ---
 
 # React Skill

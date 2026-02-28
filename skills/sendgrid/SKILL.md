@@ -2,6 +2,8 @@
 name: sendgrid
 description: "Sends transactional and bulk email via the Twilio SendGrid Web API v3. Use when asked to: send transactional emails with retry logic, manage bounce and spam complaint rates, rotate SendGrid API keys with least-privilege scopes, sync unsubscribe lists to prevent CAN-SPAM/GDPR violations, implement exponential backoff for 429 rate limit errors, suppress hard-bounced addresses before sending, configure domain authentication and DKIM, or track delivery events via SendGrid Event Webhooks."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

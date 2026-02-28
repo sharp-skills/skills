@@ -2,11 +2,13 @@
 name: aws-lambda
 description: Work with aws-lambda — integrate, configure, and automate. Use when asked to set up aws-lambda, use aws-lambda API, integrate aws-lambda into a project, troubleshoot aws-lambda errors, or build aws-lambda automation.
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [aws-lambda]
+  tags: [aws-lambda, api, automation, integration, cloud, infrastructure, devops]
 ---
 
 # Aws-Lambda Skill

@@ -2,11 +2,13 @@
 name: redis-streams
 description: Work with redis-streams — integrate, configure, and automate. Use when asked to set up redis-streams, use redis-streams API, integrate redis-streams into a project, troubleshoot redis-streams errors, or build redis-streams automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [redis-streams]
+  tags: [redis-streams, javascript, nodejs, npm, queue, async, messaging]
 ---
 
 # Redis-Streams Skill

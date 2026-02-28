@@ -2,11 +2,13 @@
 name: mailgun
 description: Work with mailgun — integrate, configure, and automate. Use when asked to set up mailgun, use mailgun API, integrate mailgun into a project, troubleshoot mailgun errors, or build mailgun automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [mailgun]
+  tags: [mailgun, api, automation, integration]
 ---
 
 # Mailgun Skill

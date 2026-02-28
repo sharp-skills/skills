@@ -2,11 +2,13 @@
 name: gitlab-ci
 description: Work with gitlab-ci — integrate, configure, and automate. Use when asked to set up gitlab-ci, use gitlab-ci API, integrate gitlab-ci into a project, troubleshoot gitlab-ci errors, or build gitlab-ci automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [gitlab-ci]
+  tags: [gitlab-ci, api, automation, integration]
 ---
 
 # Gitlab-Ci Skill

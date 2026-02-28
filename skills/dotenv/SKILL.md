@@ -2,11 +2,13 @@
 name: dotenv
 description: Work with dotenv — integrate, configure, and automate. Use when asked to set up dotenv, use dotenv API, integrate dotenv into a project, troubleshoot dotenv errors, or build dotenv automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [dotenv]
+  tags: [dotenv, javascript, nodejs, npm]
 ---
 
 # Dotenv Skill

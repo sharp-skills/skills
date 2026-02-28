@@ -2,11 +2,13 @@
 name: algolia
 description: Work with algolia — integrate, configure, and automate. Use when asked to set up algolia, use algolia API, integrate algolia into a project, troubleshoot algolia errors, or build algolia automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [algolia]
+  tags: [algolia, javascript, nodejs, npm]
 ---
 
 # Algolia Skill

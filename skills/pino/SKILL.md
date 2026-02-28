@@ -2,11 +2,13 @@
 name: pino
 description: Work with pino — integrate, configure, and automate. Use when asked to set up pino, use pino API, integrate pino into a project, troubleshoot pino errors, or build pino automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [pino]
+  tags: [pino, javascript, nodejs, npm, logging, monitoring, observability]
 ---
 
 # Pino Skill

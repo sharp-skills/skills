@@ -2,11 +2,13 @@
 name: github-cli
 description: Work with github-cli — integrate, configure, and automate. Use when asked to set up github-cli, use github-cli API, integrate github-cli into a project, troubleshoot github-cli errors, or build github-cli automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [github-cli]
+  tags: [github-cli, api, automation, integration]
 ---
 
 # Github-Cli Skill

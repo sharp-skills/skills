@@ -2,11 +2,13 @@
 name: loki
 description: Work with loki — integrate, configure, and automate. Use when asked to set up loki, use loki API, integrate loki into a project, troubleshoot loki errors, or build loki automation.
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [loki]
+  tags: [loki, api, automation, integration, logging, monitoring, observability]
 ---
 
 # Loki Skill

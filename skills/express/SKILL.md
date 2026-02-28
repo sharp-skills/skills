@@ -2,11 +2,13 @@
 name: express
 description: Work with express — integrate, configure, and automate. Use when asked to set up express, use express API, integrate express into a project, troubleshoot express errors, or build express automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [express]
+  tags: [express, javascript, nodejs, npm]
 ---
 
 # Express Skill

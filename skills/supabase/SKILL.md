@@ -2,6 +2,8 @@
 name: supabase-production
 description: "Production-depth Supabase patterns covering connection pooling with PgBouncer, RLS policy performance tuning, JWT expiry and token refresh races, zero-downtime database migrations, and index alignment for Row Level Security. Use when asked to: set up Supabase connection pooling, configure PgBouncer for high concurrency, write performant RLS policies, handle token refresh edge cases, run database migrations without downtime, debug slow queries caused by RLS, manage JWT expiry in production, optimize Supabase for scale."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

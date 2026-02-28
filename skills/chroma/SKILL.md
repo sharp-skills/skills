@@ -2,6 +2,8 @@
 name: chroma
 description: "Chroma is the open-source AI-native vector database for building LLM-powered search and retrieval applications. Use when asked to: store and query embeddings for semantic search, build a RAG (retrieval-augmented generation) pipeline, add vector search to an AI app, persist and reload a vector index, filter documents by metadata in a vector store, integrate ChromaDB with LangChain or LlamaIndex, create or manage document collections with embeddings, or switch from in-memory to persistent/client-server Chroma storage."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

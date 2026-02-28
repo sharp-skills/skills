@@ -2,11 +2,13 @@
 name: grafana
 description: Work with grafana — integrate, configure, and automate. Use when asked to set up grafana, use grafana API, integrate grafana into a project, troubleshoot grafana errors, or build grafana automation.
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [grafana]
+  tags: [grafana, api, automation, integration, logging, monitoring, observability]
 ---
 
 # Grafana Skill

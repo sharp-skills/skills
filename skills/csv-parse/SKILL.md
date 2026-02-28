@@ -2,11 +2,13 @@
 name: csv-parse
 description: Work with csv-parse — integrate, configure, and automate. Use when asked to set up csv-parse, use csv-parse API, integrate csv-parse into a project, troubleshoot csv-parse errors, or build csv-parse automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [csv-parse]
+  tags: [csv-parse, javascript, nodejs, npm]
 ---
 
 # Csv-Parse Skill

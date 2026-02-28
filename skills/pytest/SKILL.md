@@ -2,11 +2,13 @@
 name: pytest
 description: Work with pytest — integrate, configure, and automate. Use when asked to set up pytest, use pytest API, integrate pytest into a project, troubleshoot pytest errors, or build pytest automation.
 license: Apache-2.0
+compatibility:
+- python >= 3.9
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [pytest]
+  tags: [pytest, python, pip, testing, qa]
 ---
 
 # Pytest Skill

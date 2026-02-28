@@ -2,11 +2,13 @@
 name: exceljs
 description: Work with exceljs — integrate, configure, and automate. Use when asked to set up exceljs, use exceljs API, integrate exceljs into a project, troubleshoot exceljs errors, or build exceljs automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [exceljs]
+  tags: [exceljs, api, automation, integration]
 ---
 
 # Exceljs Skill

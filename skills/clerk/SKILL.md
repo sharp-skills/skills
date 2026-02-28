@@ -2,11 +2,13 @@
 name: clerk
 description: Work with clerk — integrate, configure, and automate. Use when asked to set up clerk, use clerk API, integrate clerk into a project, troubleshoot clerk errors, or build clerk automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [clerk]
+  tags: [clerk, api, automation, integration]
 ---
 
 # Clerk Skill

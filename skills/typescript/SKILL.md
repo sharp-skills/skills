@@ -2,11 +2,13 @@
 name: typescript
 description: Work with typescript — integrate, configure, and automate. Use when asked to set up typescript, use typescript API, integrate typescript into a project, troubleshoot typescript errors, or build typescript automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [typescript]
+  tags: [typescript, api, automation, integration]
 ---
 
 # Typescript Skill

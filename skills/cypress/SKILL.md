@@ -2,11 +2,13 @@
 name: cypress
 description: Work with cypress — integrate, configure, and automate. Use when asked to set up cypress, use cypress API, integrate cypress into a project, troubleshoot cypress errors, or build cypress automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [cypress]
+  tags: [cypress, api, automation, integration, testing, qa]
 ---
 
 # Cypress Skill

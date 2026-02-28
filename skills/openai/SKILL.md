@@ -2,11 +2,13 @@
 name: openai
 description: Work with openai — integrate, configure, and automate. Use when asked to set up openai, use openai API, integrate openai into a project, troubleshoot openai errors, or build openai automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [openai]
+  tags: [openai, api, automation, integration]
 ---
 
 # Openai Skill

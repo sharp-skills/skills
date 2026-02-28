@@ -2,11 +2,13 @@
 name: upstash
 description: Work with upstash — integrate, configure, and automate. Use when asked to set up upstash, use upstash API, integrate upstash into a project, troubleshoot upstash errors, or build upstash automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [upstash]
+  tags: [upstash, api, automation, integration]
 ---
 
 # Upstash Skill

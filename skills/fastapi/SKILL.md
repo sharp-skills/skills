@@ -2,6 +2,8 @@
 name: fastapi-production
 description: "Production-depth skill for building robust FastAPI services. Use when asked to: add JWT authentication with token refresh to a FastAPI app, implement rate limiting or throttling on API endpoints, set up global exception handlers and structured error responses, configure database connection pooling with SQLAlchemy async sessions, handle 422 validation errors with custom messages, protect endpoints with OAuth2 or API key security schemes, manage async background tasks with proper lifecycle hooks, or tune FastAPI for high-concurrency production deployments."
 license: Apache-2.0
+compatibility:
+- python >= 3.9
 metadata:
   author: SharpSkills
   version: 1.0.0

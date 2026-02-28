@@ -2,11 +2,13 @@
 name: jira
 description: Work with jira — integrate, configure, and automate. Use when asked to set up jira, use jira API, integrate jira into a project, troubleshoot jira errors, or build jira automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [jira]
+  tags: [jira, api, automation, integration]
 ---
 
 # Jira Skill

@@ -2,11 +2,13 @@
 name: nextauth
 description: Work with nextauth — integrate, configure, and automate. Use when asked to set up nextauth, use nextauth API, integrate nextauth into a project, troubleshoot nextauth errors, or build nextauth automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [nextauth]
+  tags: [nextauth, api, automation, integration, security, authentication]
 ---
 
 # Nextauth Skill

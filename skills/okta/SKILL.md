@@ -2,11 +2,13 @@
 name: okta
 description: Work with okta — integrate, configure, and automate. Use when asked to set up okta, use okta API, integrate okta into a project, troubleshoot okta errors, or build okta automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [okta]
+  tags: [okta, api, automation, integration]
 ---
 
 # Okta Skill

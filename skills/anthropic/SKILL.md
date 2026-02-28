@@ -2,6 +2,8 @@
 name: anthropic
 description: "Integrates with the Anthropic Claude API to send messages, stream responses, handle multi-turn conversations, and build AI-powered applications. Use when asked to: call Claude API, send a message to Claude, stream Claude responses, set up Anthropic client, build a chatbot with Claude, generate text with Claude, use claude-opus or claude-sonnet models, implement multi-turn conversation with Claude, add AI to my Python app using Anthropic."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

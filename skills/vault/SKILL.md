@@ -2,11 +2,13 @@
 name: vault
 description: Work with vault — integrate, configure, and automate. Use when asked to set up vault, use vault API, integrate vault into a project, troubleshoot vault errors, or build vault automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [vault]
+  tags: [vault, api, automation, integration]
 ---
 
 # Vault Skill

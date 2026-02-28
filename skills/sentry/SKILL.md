@@ -2,11 +2,13 @@
 name: sentry
 description: Work with sentry — integrate, configure, and automate. Use when asked to set up sentry, use sentry API, integrate sentry into a project, troubleshoot sentry errors, or build sentry automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [sentry]
+  tags: [sentry, api, automation, integration]
 ---
 
 # Sentry Skill

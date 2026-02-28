@@ -2,11 +2,13 @@
 name: memcached
 description: Work with memcached — integrate, configure, and automate. Use when asked to set up memcached, use memcached API, integrate memcached into a project, troubleshoot memcached errors, or build memcached automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [memcached]
+  tags: [memcached, api, automation, integration]
 ---
 
 # Memcached Skill

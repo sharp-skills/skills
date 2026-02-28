@@ -2,11 +2,13 @@
 name: jaeger
 description: Work with jaeger — integrate, configure, and automate. Use when asked to set up jaeger, use jaeger API, integrate jaeger into a project, troubleshoot jaeger errors, or build jaeger automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [jaeger]
+  tags: [jaeger, api, automation, integration]
 ---
 
 # Jaeger Skill

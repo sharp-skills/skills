@@ -2,6 +2,8 @@
 name: twilio-production
 description: "Production-grade Twilio integration covering webhook signature validation, retry logic with exponential backoff, delivery failure handling, rate limiting, and throughput queue management. Use when asked to: validate Twilio webhook signatures, retry failed SMS or voice requests, handle undeliverable numbers, implement rate limiting for bulk messaging, manage message queues and throughput, authenticate incoming Twilio webhooks, handle 429 Too Many Requests errors from Twilio, or build reliable SMS delivery pipelines."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

@@ -2,6 +2,8 @@
 name: pinecone
 description: "Production-grade vector database skill for Pinecone. Use when asked to: store and query embeddings in Pinecone, build semantic search with vector similarity, implement RAG retrieval pipelines, isolate tenant data with namespace partitioning, handle rate limits with exponential backoff, scale pod-based indexes for high throughput, debug dimension mismatch errors on upsert, or plan capacity for production vector workloads."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

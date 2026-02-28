@@ -2,11 +2,13 @@
 name: planetscale
 description: Work with planetscale — integrate, configure, and automate. Use when asked to set up planetscale, use planetscale API, integrate planetscale into a project, troubleshoot planetscale errors, or build planetscale automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [planetscale]
+  tags: [planetscale, api, automation, integration]
 ---
 
 # Planetscale Skill

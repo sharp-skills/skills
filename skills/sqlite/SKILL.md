@@ -2,6 +2,8 @@
 name: sqlite
 description: "Production-depth SQLite operations for Node.js: connection pool lifecycle, WAL journaling, concurrent write locking, database corruption detection and recovery, page fragmentation and VACUUM strategies, and migration management. Use when asked to: set up SQLite with Node.js, handle SQLite SQLITE_BUSY or locked database errors, configure WAL mode for concurrency, detect or repair a corrupt SQLite database, tune VACUUM and auto-vacuum settings, manage connection pool sizing, run SQL-based migrations, or optimize INSERT throughput under write contention."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

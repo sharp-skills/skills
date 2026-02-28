@@ -2,11 +2,13 @@
 name: terraform
 description: Work with terraform — integrate, configure, and automate. Use when asked to set up terraform, use terraform API, integrate terraform into a project, troubleshoot terraform errors, or build terraform automation.
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [terraform]
+  tags: [terraform, api, automation, integration, cloud, infrastructure, devops]
 ---
 
 # Terraform Skill

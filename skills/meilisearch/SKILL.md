@@ -2,11 +2,13 @@
 name: meilisearch
 description: Work with meilisearch — integrate, configure, and automate. Use when asked to set up meilisearch, use meilisearch API, integrate meilisearch into a project, troubleshoot meilisearch errors, or build meilisearch automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [meilisearch]
+  tags: [meilisearch, api, automation, integration]
 ---
 
 # Meilisearch Skill

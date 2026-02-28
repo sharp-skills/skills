@@ -2,11 +2,13 @@
 name: pusher
 description: Work with pusher — integrate, configure, and automate. Use when asked to set up pusher, use pusher API, integrate pusher into a project, troubleshoot pusher errors, or build pusher automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [pusher]
+  tags: [pusher, javascript, nodejs, npm]
 ---
 
 # Pusher Skill

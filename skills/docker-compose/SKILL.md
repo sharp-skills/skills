@@ -2,11 +2,13 @@
 name: docker-compose
 description: Work with docker-compose — integrate, configure, and automate. Use when asked to set up docker-compose, use docker-compose API, integrate docker-compose into a project, troubleshoot docker-compose errors, or build docker-compose automation.
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [docker-compose]
+  tags: [docker-compose, api, automation, integration]
 ---
 
 # Docker-Compose Skill

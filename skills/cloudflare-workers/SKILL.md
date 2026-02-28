@@ -2,6 +2,8 @@
 name: cloudflare-workers
 description: "Build, deploy, and harden Cloudflare Workers for production. Use when asked to: create a Cloudflare Worker with routing, add rate limiting to a Worker, implement retry logic with exponential backoff in a Worker, handle errors and classify failures in a Worker, set up KV storage or Durable Objects, proxy requests through Cloudflare Workers, monitor Worker performance and log errors, make Workers idempotent and safe to retry."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

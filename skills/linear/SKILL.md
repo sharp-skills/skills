@@ -2,11 +2,13 @@
 name: linear
 description: Work with linear — integrate, configure, and automate. Use when asked to set up linear, use linear API, integrate linear into a project, troubleshoot linear errors, or build linear automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [linear]
+  tags: [linear, api, automation, integration]
 ---
 
 # Linear Skill

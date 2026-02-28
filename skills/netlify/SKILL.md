@@ -2,11 +2,13 @@
 name: netlify
 description: Work with netlify — integrate, configure, and automate. Use when asked to set up netlify, use netlify API, integrate netlify into a project, troubleshoot netlify errors, or build netlify automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [netlify]
+  tags: [netlify, api, automation, integration]
 ---
 
 # Netlify Skill

@@ -2,11 +2,13 @@
 name: zustand
 description: Work with zustand — integrate, configure, and automate. Use when asked to set up zustand, use zustand API, integrate zustand into a project, troubleshoot zustand errors, or build zustand automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [zustand]
+  tags: [zustand, api, automation, integration]
 ---
 
 # Zustand Skill

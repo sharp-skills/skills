@@ -2,11 +2,13 @@
 name: aws-cognito
 description: Work with aws-cognito — integrate, configure, and automate. Use when asked to set up aws-cognito, use aws-cognito API, integrate aws-cognito into a project, troubleshoot aws-cognito errors, or build aws-cognito automation.
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [aws-cognito]
+  tags: [aws-cognito, api, automation, integration, cloud, infrastructure, devops]
 ---
 
 # Aws-Cognito Skill

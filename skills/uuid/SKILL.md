@@ -2,11 +2,13 @@
 name: uuid
 description: Work with uuid — integrate, configure, and automate. Use when asked to set up uuid, use uuid API, integrate uuid into a project, troubleshoot uuid errors, or build uuid automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [uuid]
+  tags: [uuid, api, automation, integration]
 ---
 
 # Uuid Skill

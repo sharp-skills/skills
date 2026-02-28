@@ -2,11 +2,13 @@
 name: nextjs
 description: Work with nextjs — integrate, configure, and automate. Use when asked to set up nextjs, use nextjs API, integrate nextjs into a project, troubleshoot nextjs errors, or build nextjs automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [nextjs]
+  tags: [nextjs, api, automation, integration]
 ---
 
 # Nextjs Skill

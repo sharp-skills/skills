@@ -2,11 +2,13 @@
 name: websocket
 description: Work with websocket — integrate, configure, and automate. Use when asked to set up websocket, use websocket API, integrate websocket into a project, troubleshoot websocket errors, or build websocket automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [websocket]
+  tags: [websocket, javascript, nodejs, npm]
 ---
 
 # Websocket Skill

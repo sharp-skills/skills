@@ -2,11 +2,13 @@
 name: cron
 description: Work with cron — integrate, configure, and automate. Use when asked to set up cron, use cron API, integrate cron into a project, troubleshoot cron errors, or build cron automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [cron]
+  tags: [cron, api, automation, integration]
 ---
 
 # Cron Skill

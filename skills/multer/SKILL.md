@@ -2,11 +2,13 @@
 name: multer
 description: Work with multer — integrate, configure, and automate. Use when asked to set up multer, use multer API, integrate multer into a project, troubleshoot multer errors, or build multer automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [multer]
+  tags: [multer, api, automation, integration]
 ---
 
 # Multer Skill

@@ -2,11 +2,13 @@
 name: hono
 description: Work with hono — integrate, configure, and automate. Use when asked to set up hono, use hono API, integrate hono into a project, troubleshoot hono errors, or build hono automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [hono]
+  tags: [hono, api, automation, integration]
 ---
 
 # Hono Skill

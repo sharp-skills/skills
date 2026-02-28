@@ -2,11 +2,13 @@
 name: varnish
 description: Work with varnish — integrate, configure, and automate. Use when asked to set up varnish, use varnish API, integrate varnish into a project, troubleshoot varnish errors, or build varnish automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [varnish]
+  tags: [varnish, api, automation, integration]
 ---
 
 # Varnish Skill

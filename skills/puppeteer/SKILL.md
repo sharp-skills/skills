@@ -2,11 +2,13 @@
 name: puppeteer
 description: Work with puppeteer — integrate, configure, and automate. Use when asked to set up puppeteer, use puppeteer API, integrate puppeteer into a project, troubleshoot puppeteer errors, or build puppeteer automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [puppeteer]
+  tags: [puppeteer, javascript, nodejs, npm]
 ---
 
 # Puppeteer Skill

@@ -2,11 +2,13 @@
 name: twilio-sms
 description: Work with twilio-sms — integrate, configure, and automate. Use when asked to set up twilio-sms, use twilio-sms API, integrate twilio-sms into a project, troubleshoot twilio-sms errors, or build twilio-sms automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [twilio-sms]
+  tags: [twilio-sms, api, automation, integration]
 ---
 
 # Twilio-Sms Skill

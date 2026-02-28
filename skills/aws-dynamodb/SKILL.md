@@ -2,6 +2,8 @@
 name: aws-dynamodb
 description: "Production-grade AWS DynamoDB patterns with exponential backoff, VPC endpoints, IAM least-privilege access, and Global Tables conflict resolution. Use when asked to: set up DynamoDB with retry logic, implement exponential backoff for throttling, configure private DynamoDB via VPC endpoints, create attribute-level IAM policies, resolve Global Tables replication conflicts, handle ProvisionedThroughputExceededException, design multi-region DynamoDB with conflict resolution, or monitor replication lag across DynamoDB regions."
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0

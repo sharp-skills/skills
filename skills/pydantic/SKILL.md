@@ -2,11 +2,13 @@
 name: pydantic
 description: Work with pydantic — integrate, configure, and automate. Use when asked to set up pydantic, use pydantic API, integrate pydantic into a project, troubleshoot pydantic errors, or build pydantic automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [pydantic]
+  tags: [pydantic, api, automation, integration]
 ---
 
 # Pydantic Skill

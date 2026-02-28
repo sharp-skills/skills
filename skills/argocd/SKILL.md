@@ -2,11 +2,13 @@
 name: argocd
 description: Work with argocd — integrate, configure, and automate. Use when asked to set up argocd, use argocd API, integrate argocd into a project, troubleshoot argocd errors, or build argocd automation.
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [argocd]
+  tags: [argocd, api, automation, integration]
 ---
 
 # Argocd Skill

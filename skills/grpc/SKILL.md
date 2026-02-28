@@ -2,11 +2,13 @@
 name: grpc
 description: Work with grpc — integrate, configure, and automate. Use when asked to set up grpc, use grpc API, integrate grpc into a project, troubleshoot grpc errors, or build grpc automation.
 license: Apache-2.0
+compatibility:
+- python >= 3.9
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [grpc]
+  tags: [grpc, python, pip]
 ---
 
 # Grpc Skill

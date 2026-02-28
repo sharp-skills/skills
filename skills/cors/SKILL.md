@@ -2,11 +2,13 @@
 name: cors
 description: Work with cors — integrate, configure, and automate. Use when asked to set up cors, use cors API, integrate cors into a project, troubleshoot cors errors, or build cors automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [cors]
+  tags: [cors, api, automation, integration]
 ---
 
 # Cors Skill

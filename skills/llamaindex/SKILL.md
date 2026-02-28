@@ -2,11 +2,13 @@
 name: llamaindex
 description: Work with llamaindex — integrate, configure, and automate. Use when asked to set up llamaindex, use llamaindex API, integrate llamaindex into a project, troubleshoot llamaindex errors, or build llamaindex automation.
 license: Apache-2.0
+compatibility:
+- python >= 3.9
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [llamaindex]
+  tags: [llamaindex, python, pip]
 ---
 
 # Llamaindex Skill

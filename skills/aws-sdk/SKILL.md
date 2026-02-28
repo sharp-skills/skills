@@ -2,11 +2,13 @@
 name: aws-sdk
 description: Work with aws-sdk — integrate, configure, and automate. Use when asked to set up aws-sdk, use aws-sdk API, integrate aws-sdk into a project, troubleshoot aws-sdk errors, or build aws-sdk automation.
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [aws-sdk]
+  tags: [aws-sdk, api, automation, integration, cloud, infrastructure, devops]
 ---
 
 # Aws-Sdk Skill

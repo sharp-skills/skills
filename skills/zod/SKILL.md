@@ -2,11 +2,13 @@
 name: zod
 description: Work with zod — integrate, configure, and automate. Use when asked to set up zod, use zod API, integrate zod into a project, troubleshoot zod errors, or build zod automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [zod]
+  tags: [zod, javascript, nodejs, npm]
 ---
 
 # Zod Skill

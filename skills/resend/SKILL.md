@@ -2,11 +2,13 @@
 name: resend
 description: Work with resend — integrate, configure, and automate. Use when asked to set up resend, use resend API, integrate resend into a project, troubleshoot resend errors, or build resend automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [resend]
+  tags: [resend, api, automation, integration]
 ---
 
 # Resend Skill

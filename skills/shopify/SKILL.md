@@ -2,11 +2,13 @@
 name: shopify
 description: Work with shopify — integrate, configure, and automate. Use when asked to set up shopify, use shopify API, integrate shopify into a project, troubleshoot shopify errors, or build shopify automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [shopify]
+  tags: [shopify, api, automation, integration]
 ---
 
 # Shopify Skill

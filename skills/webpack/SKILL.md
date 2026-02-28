@@ -2,11 +2,13 @@
 name: webpack
 description: Work with webpack — integrate, configure, and automate. Use when asked to set up webpack, use webpack API, integrate webpack into a project, troubleshoot webpack errors, or build webpack automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [webpack]
+  tags: [webpack, api, automation, integration]
 ---
 
 # Webpack Skill

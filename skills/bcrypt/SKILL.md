@@ -2,11 +2,13 @@
 name: bcrypt
 description: Work with bcrypt — integrate, configure, and automate. Use when asked to set up bcrypt, use bcrypt API, integrate bcrypt into a project, troubleshoot bcrypt errors, or build bcrypt automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [bcrypt]
+  tags: [bcrypt, javascript, nodejs, npm]
 ---
 
 # Bcrypt Skill

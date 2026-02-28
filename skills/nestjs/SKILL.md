@@ -2,11 +2,13 @@
 name: nestjs
 description: Work with nestjs — integrate, configure, and automate. Use when asked to set up nestjs, use nestjs API, integrate nestjs into a project, troubleshoot nestjs errors, or build nestjs automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [nestjs]
+  tags: [nestjs, api, automation, integration]
 ---
 
 # Nestjs Skill

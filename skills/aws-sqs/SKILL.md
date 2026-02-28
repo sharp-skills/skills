@@ -2,11 +2,13 @@
 name: aws-sqs
 description: Work with aws-sqs — integrate, configure, and automate. Use when asked to set up aws-sqs, use aws-sqs API, integrate aws-sqs into a project, troubleshoot aws-sqs errors, or build aws-sqs automation.
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [aws-sqs]
+  tags: [aws-sqs, api, automation, integration, cloud, infrastructure, devops]
 ---
 
 # Aws-Sqs Skill

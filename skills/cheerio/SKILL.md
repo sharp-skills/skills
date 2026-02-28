@@ -2,11 +2,13 @@
 name: cheerio
 description: Work with cheerio — integrate, configure, and automate. Use when asked to set up cheerio, use cheerio API, integrate cheerio into a project, troubleshoot cheerio errors, or build cheerio automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [cheerio]
+  tags: [cheerio, api, automation, integration]
 ---
 
 # Cheerio Skill

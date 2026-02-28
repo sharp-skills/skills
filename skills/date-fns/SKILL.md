@@ -2,11 +2,13 @@
 name: date-fns
 description: Work with date-fns — integrate, configure, and automate. Use when asked to set up date-fns, use date-fns API, integrate date-fns into a project, troubleshoot date-fns errors, or build date-fns automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [date-fns]
+  tags: [date-fns, api, automation, integration]
 ---
 
 # Date-Fns Skill

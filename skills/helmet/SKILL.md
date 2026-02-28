@@ -2,11 +2,13 @@
 name: helmet
 description: Work with helmet — integrate, configure, and automate. Use when asked to set up helmet, use helmet API, integrate helmet into a project, troubleshoot helmet errors, or build helmet automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [helmet]
+  tags: [helmet, javascript, nodejs, npm, security, authentication]
 ---
 
 # Helmet Skill

@@ -2,11 +2,13 @@
 name: helm
 description: Work with helm — integrate, configure, and automate. Use when asked to set up helm, use helm API, integrate helm into a project, troubleshoot helm errors, or build helm automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [helm]
+  tags: [helm, api, automation, integration]
 ---
 
 # Helm Skill

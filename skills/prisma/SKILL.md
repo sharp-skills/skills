@@ -2,6 +2,8 @@
 name: prisma-production-depth
 description: "Production-depth Prisma ORM patterns for Node.js/TypeScript backends. Use when asked to: configure connection pool sizing, handle pool exhaustion errors, set query timeouts, cancel slow queries, detect and fix N+1 query problems, implement Prisma Client singleton for serverless/Lambda, tune Prisma for high-concurrency APIs, or debug 'Too many connections' and timeout errors in production Prisma apps."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

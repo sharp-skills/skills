@@ -2,11 +2,13 @@
 name: sharp
 description: Work with sharp — integrate, configure, and automate. Use when asked to set up sharp, use sharp API, integrate sharp into a project, troubleshoot sharp errors, or build sharp automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [sharp]
+  tags: [sharp, api, automation, integration]
 ---
 
 # Sharp Skill

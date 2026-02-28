@@ -2,6 +2,8 @@
 name: kubernetes
 description: "Manages containerized application orchestration using Kubernetes (K8s). Use when user asks to: deploy an application to Kubernetes, scale pods up or down, configure a Kubernetes service or ingress, debug a crashing or stuck pod, set up namespaces and RBAC, manage ConfigMaps and Secrets, apply or roll back a deployment, or connect a local Docker image with Minikube."
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0

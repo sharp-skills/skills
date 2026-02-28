@@ -2,11 +2,13 @@
 name: langchain
 description: Work with langchain — integrate, configure, and automate. Use when asked to set up langchain, use langchain API, integrate langchain into a project, troubleshoot langchain errors, or build langchain automation.
 license: Apache-2.0
+compatibility:
+- python >= 3.9
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [langchain]
+  tags: [langchain, python, pip]
 ---
 
 # Langchain Skill

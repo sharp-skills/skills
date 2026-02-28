@@ -2,11 +2,13 @@
 name: typeorm
 description: Work with typeorm — integrate, configure, and automate. Use when asked to set up typeorm, use typeorm API, integrate typeorm into a project, troubleshoot typeorm errors, or build typeorm automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [typeorm]
+  tags: [typeorm, api, automation, integration]
 ---
 
 # Typeorm Skill

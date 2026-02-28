@@ -2,6 +2,8 @@
 name: postgresql
 description: "Production-depth PostgreSQL operations skill covering connection pooling with PgBouncer, VACUUM and table bloat management, replication lag monitoring, table partitioning strategies, and failover handling. Use when asked to: configure PgBouncer connection pooling, manage autovacuum and bloat, set up streaming replication, monitor replication lag, partition large tables, handle primary failover, tune PostgreSQL for production, or diagnose slow queries and index bloat."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

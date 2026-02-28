@@ -2,11 +2,13 @@
 name: fetch-api
 description: Work with fetch-api — integrate, configure, and automate. Use when asked to set up fetch-api, use fetch-api API, integrate fetch-api into a project, troubleshoot fetch-api errors, or build fetch-api automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [fetch-api]
+  tags: [fetch-api, api, automation, integration]
 ---
 
 # Fetch-Api Skill

@@ -2,6 +2,8 @@
 name: aws-cloudwatch
 description: "Puts custom metrics into AWS CloudWatch using a simple wrapper around putMetricData. Use when user asks to: send custom metrics to CloudWatch, track application performance in AWS, publish metric data with dimensions, record aggregated statistics (min/max/sum/count), instrument Node.js apps with CloudWatch metrics, set up custom namespaces for monitoring, send dimensional metrics to AWS, or integrate app telemetry with CloudWatch dashboards."
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0

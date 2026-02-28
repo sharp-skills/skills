@@ -2,11 +2,13 @@
 name: jsonwebtoken
 description: Work with jsonwebtoken — integrate, configure, and automate. Use when asked to set up jsonwebtoken, use jsonwebtoken API, integrate jsonwebtoken into a project, troubleshoot jsonwebtoken errors, or build jsonwebtoken automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [jsonwebtoken]
+  tags: [jsonwebtoken, api, automation, integration]
 ---
 
 # Jsonwebtoken Skill

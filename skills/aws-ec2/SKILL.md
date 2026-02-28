@@ -2,6 +2,8 @@
 name: aws-ec2
 description: "Manages AWS EC2 instances with production-grade security and performance hardening. Use when asked to: launch or terminate EC2 instances, harden instance metadata service with IMDSv2, configure placement groups for low-latency workloads, set up Nitro hypervisor enhanced networking, recover from instance store or EBS failures, optimize EC2 networking with SR-IOV or ENA, automate instance lifecycle with AWS SDK, or debug instance connectivity and boot failures."
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0

@@ -2,11 +2,13 @@
 name: aws-iam
 description: Work with aws-iam — integrate, configure, and automate. Use when asked to set up aws-iam, use aws-iam API, integrate aws-iam into a project, troubleshoot aws-iam errors, or build aws-iam automation.
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [aws-iam]
+  tags: [aws-iam, api, automation, integration, cloud, infrastructure, devops]
 ---
 
 # Aws-Iam Skill

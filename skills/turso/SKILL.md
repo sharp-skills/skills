@@ -2,11 +2,13 @@
 name: turso
 description: Work with turso — integrate, configure, and automate. Use when asked to set up turso, use turso API, integrate turso into a project, troubleshoot turso errors, or build turso automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [turso]
+  tags: [turso, api, automation, integration]
 ---
 
 # Turso Skill

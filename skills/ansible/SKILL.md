@@ -2,11 +2,13 @@
 name: ansible
 description: Work with ansible — integrate, configure, and automate. Use when asked to set up ansible, use ansible API, integrate ansible into a project, troubleshoot ansible errors, or build ansible automation.
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [ansible]
+  tags: [ansible, api, automation, integration]
 ---
 
 # Ansible Skill

@@ -2,11 +2,13 @@
 name: etcd
 description: Work with etcd — integrate, configure, and automate. Use when asked to set up etcd, use etcd API, integrate etcd into a project, troubleshoot etcd errors, or build etcd automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [etcd]
+  tags: [etcd, api, automation, integration]
 ---
 
 # Etcd Skill

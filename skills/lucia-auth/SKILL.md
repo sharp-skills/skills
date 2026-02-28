@@ -2,11 +2,13 @@
 name: lucia-auth
 description: Work with lucia-auth — integrate, configure, and automate. Use when asked to set up lucia-auth, use lucia-auth API, integrate lucia-auth into a project, troubleshoot lucia-auth errors, or build lucia-auth automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [lucia-auth]
+  tags: [lucia-auth, api, automation, integration, security, authentication]
 ---
 
 # Lucia-Auth Skill

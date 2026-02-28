@@ -2,11 +2,13 @@
 name: discord-bot
 description: Work with discord-bot — integrate, configure, and automate. Use when asked to set up discord-bot, use discord-bot API, integrate discord-bot into a project, troubleshoot discord-bot errors, or build discord-bot automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [discord-bot]
+  tags: [discord-bot, api, automation, integration]
 ---
 
 # Discord-Bot Skill

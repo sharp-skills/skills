@@ -2,11 +2,13 @@
 name: oauth2
 description: Work with oauth2 — integrate, configure, and automate. Use when asked to set up oauth2, use oauth2 API, integrate oauth2 into a project, troubleshoot oauth2 errors, or build oauth2 automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [oauth2]
+  tags: [oauth2, api, automation, integration, security, authentication]
 ---
 
 # Oauth2 Skill

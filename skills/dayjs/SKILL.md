@@ -2,11 +2,13 @@
 name: dayjs
 description: Work with dayjs — integrate, configure, and automate. Use when asked to set up dayjs, use dayjs API, integrate dayjs into a project, troubleshoot dayjs errors, or build dayjs automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [dayjs]
+  tags: [dayjs, api, automation, integration]
 ---
 
 # Dayjs Skill

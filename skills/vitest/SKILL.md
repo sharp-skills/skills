@@ -2,11 +2,13 @@
 name: vitest
 description: Work with vitest — integrate, configure, and automate. Use when asked to set up vitest, use vitest API, integrate vitest into a project, troubleshoot vitest errors, or build vitest automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [vitest]
+  tags: [vitest, api, automation, integration, testing, qa]
 ---
 
 # Vitest Skill

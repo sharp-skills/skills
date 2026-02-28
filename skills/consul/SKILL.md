@@ -2,11 +2,13 @@
 name: consul
 description: Work with consul — integrate, configure, and automate. Use when asked to set up consul, use consul API, integrate consul into a project, troubleshoot consul errors, or build consul automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [consul]
+  tags: [consul, api, automation, integration]
 ---
 
 # Consul Skill

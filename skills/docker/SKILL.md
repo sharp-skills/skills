@@ -2,6 +2,8 @@
 name: docker
 description: "Manages Docker containers, images, networks, and volumes using the Docker Engine API and CLI. Use when asked to: run or stop containers in production, build and push Docker images, manage container health checks and restarts, implement zero-downtime deployments, debug container crashes or OOM kills, set up Docker networking between services, clean up dangling images and volumes, or monitor container resource usage."
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0

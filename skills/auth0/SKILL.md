@@ -2,11 +2,13 @@
 name: auth0
 description: Work with auth0 — integrate, configure, and automate. Use when asked to set up auth0, use auth0 API, integrate auth0 into a project, troubleshoot auth0 errors, or build auth0 automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [auth0]
+  tags: [auth0, api, automation, integration, security, authentication]
 ---
 
 # Auth0 Skill

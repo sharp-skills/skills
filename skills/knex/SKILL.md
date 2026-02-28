@@ -2,11 +2,13 @@
 name: knex
 description: Work with knex — integrate, configure, and automate. Use when asked to set up knex, use knex API, integrate knex into a project, troubleshoot knex errors, or build knex automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [knex]
+  tags: [knex, api, automation, integration]
 ---
 
 # Knex Skill

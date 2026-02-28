@@ -2,11 +2,13 @@
 name: telegram-bot
 description: Work with telegram-bot — integrate, configure, and automate. Use when asked to set up telegram-bot, use telegram-bot API, integrate telegram-bot into a project, troubleshoot telegram-bot errors, or build telegram-bot automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [telegram-bot]
+  tags: [telegram-bot, javascript, nodejs, npm]
 ---
 
 # Telegram-Bot Skill

@@ -2,11 +2,13 @@
 name: github-actions
 description: Work with github-actions — integrate, configure, and automate. Use when asked to set up github-actions, use github-actions API, integrate github-actions into a project, troubleshoot github-actions errors, or build github-actions automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [github-actions]
+  tags: [github-actions, api, automation, integration]
 ---
 
 # Github-Actions Skill

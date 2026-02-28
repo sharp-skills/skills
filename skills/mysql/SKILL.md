@@ -2,6 +2,8 @@
 name: mysql
 description: "Production-grade MySQL integration for Node.js applications. Use when asked to: connect Node.js to MySQL, set up a connection pool, prevent SQL injection with parameterized queries, handle transaction isolation levels, debug deadlocks, analyze slow queries, tune pool size for high traffic, or recover from connection pool exhaustion."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

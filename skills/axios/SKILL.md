@@ -2,11 +2,13 @@
 name: axios
 description: Work with axios — integrate, configure, and automate. Use when asked to set up axios, use axios API, integrate axios into a project, troubleshoot axios errors, or build axios automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [axios]
+  tags: [axios, javascript, nodejs, npm]
 ---
 
 # Axios Skill

@@ -2,11 +2,13 @@
 name: sharp-image
 description: Work with sharp-image — integrate, configure, and automate. Use when asked to set up sharp-image, use sharp-image API, integrate sharp-image into a project, troubleshoot sharp-image errors, or build sharp-image automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [sharp-image]
+  tags: [sharp-image, api, automation, integration]
 ---
 
 # Sharp-Image Skill

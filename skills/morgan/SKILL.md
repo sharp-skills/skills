@@ -2,11 +2,13 @@
 name: morgan
 description: Work with morgan — integrate, configure, and automate. Use when asked to set up morgan, use morgan API, integrate morgan into a project, troubleshoot morgan errors, or build morgan automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [morgan]
+  tags: [morgan, api, automation, integration]
 ---
 
 # Morgan Skill

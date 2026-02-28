@@ -2,11 +2,13 @@
 name: datadog
 description: Work with datadog — integrate, configure, and automate. Use when asked to set up datadog, use datadog API, integrate datadog into a project, troubleshoot datadog errors, or build datadog automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [datadog]
+  tags: [datadog, api, automation, integration]
 ---
 
 # Datadog Skill

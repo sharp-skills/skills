@@ -2,11 +2,13 @@
 name: kafka
 description: Work with kafka — integrate, configure, and automate. Use when asked to set up kafka, use kafka API, integrate kafka into a project, troubleshoot kafka errors, or build kafka automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [kafka]
+  tags: [kafka, api, automation, integration, queue, async, messaging]
 ---
 
 # Kafka Skill

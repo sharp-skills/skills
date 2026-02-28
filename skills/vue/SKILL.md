@@ -2,11 +2,13 @@
 name: vue
 description: Work with vue — integrate, configure, and automate. Use when asked to set up vue, use vue API, integrate vue into a project, troubleshoot vue errors, or build vue automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [vue]
+  tags: [vue, api, automation, integration]
 ---
 
 # Vue Skill

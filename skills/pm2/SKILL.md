@@ -2,11 +2,13 @@
 name: pm2
 description: Work with pm2 — integrate, configure, and automate. Use when asked to set up pm2, use pm2 API, integrate pm2 into a project, troubleshoot pm2 errors, or build pm2 automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [pm2]
+  tags: [pm2, api, automation, integration]
 ---
 
 # Pm2 Skill

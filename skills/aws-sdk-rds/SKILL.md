@@ -2,11 +2,13 @@
 name: aws-sdk-rds
 description: Work with aws-sdk-rds — integrate, configure, and automate. Use when asked to set up aws-sdk-rds, use aws-sdk-rds API, integrate aws-sdk-rds into a project, troubleshoot aws-sdk-rds errors, or build aws-sdk-rds automation.
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [aws-sdk-rds]
+  tags: [aws-sdk-rds, api, automation, integration, cloud, infrastructure, devops]
 ---
 
 # Aws-Sdk-Rds Skill

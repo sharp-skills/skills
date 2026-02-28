@@ -2,11 +2,13 @@
 name: ffmpeg
 description: Work with ffmpeg — integrate, configure, and automate. Use when asked to set up ffmpeg, use ffmpeg API, integrate ffmpeg into a project, troubleshoot ffmpeg errors, or build ffmpeg automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [ffmpeg]
+  tags: [ffmpeg, api, automation, integration]
 ---
 
 # Ffmpeg Skill

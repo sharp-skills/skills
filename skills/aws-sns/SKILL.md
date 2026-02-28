@@ -2,6 +2,8 @@
 name: aws-sns
 description: "Manages AWS Simple Notification Service for production-grade pub/sub messaging. Use when asked to: set up SNS topic with dead letter queue, configure message deduplication for FIFO topics, implement cross-account SNS topic access, set retry policies and backoff for failed deliveries, handle idempotent message processing, configure cross-region SNS subscriptions, implement SNS to SQS fanout with DLQ, or troubleshoot SNS delivery failures and message loss."
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0

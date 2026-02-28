@@ -2,11 +2,13 @@
 name: pdf-lib
 description: Work with pdf-lib — integrate, configure, and automate. Use when asked to set up pdf-lib, use pdf-lib API, integrate pdf-lib into a project, troubleshoot pdf-lib errors, or build pdf-lib automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [pdf-lib]
+  tags: [pdf-lib, api, automation, integration]
 ---
 
 # Pdf-Lib Skill

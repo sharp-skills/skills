@@ -2,11 +2,13 @@
 name: minio
 description: Work with minio — integrate, configure, and automate. Use when asked to set up minio, use minio API, integrate minio into a project, troubleshoot minio errors, or build minio automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [minio]
+  tags: [minio, api, automation, integration]
 ---
 
 # Minio Skill

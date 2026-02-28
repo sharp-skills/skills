@@ -2,11 +2,13 @@
 name: playwright
 description: Work with playwright — integrate, configure, and automate. Use when asked to set up playwright, use playwright API, integrate playwright into a project, troubleshoot playwright errors, or build playwright automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [playwright]
+  tags: [playwright, api, automation, integration]
 ---
 
 # Playwright Skill

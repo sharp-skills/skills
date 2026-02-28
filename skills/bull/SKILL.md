@@ -2,11 +2,13 @@
 name: bull
 description: Work with bull — integrate, configure, and automate. Use when asked to set up bull, use bull API, integrate bull into a project, troubleshoot bull errors, or build bull automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [bull]
+  tags: [bull, javascript, nodejs, npm, queue, async, messaging]
 ---
 
 # Bull Skill

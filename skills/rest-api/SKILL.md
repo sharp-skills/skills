@@ -2,11 +2,13 @@
 name: rest-api
 description: Work with rest-api — integrate, configure, and automate. Use when asked to set up rest-api, use rest-api API, integrate rest-api into a project, troubleshoot rest-api errors, or build rest-api automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [rest-api]
+  tags: [rest-api, api, automation, integration]
 ---
 
 # Rest-Api Skill

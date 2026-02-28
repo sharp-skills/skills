@@ -2,11 +2,13 @@
 name: plaid
 description: Work with plaid — integrate, configure, and automate. Use when asked to set up plaid, use plaid API, integrate plaid into a project, troubleshoot plaid errors, or build plaid automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [plaid]
+  tags: [plaid, api, automation, integration]
 ---
 
 # Plaid Skill

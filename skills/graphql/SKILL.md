@@ -2,11 +2,13 @@
 name: graphql
 description: Work with graphql — integrate, configure, and automate. Use when asked to set up graphql, use graphql API, integrate graphql into a project, troubleshoot graphql errors, or build graphql automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [graphql]
+  tags: [graphql, api, automation, integration]
 ---
 
 # Graphql Skill

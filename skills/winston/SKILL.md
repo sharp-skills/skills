@@ -2,11 +2,13 @@
 name: winston
 description: Work with winston — integrate, configure, and automate. Use when asked to set up winston, use winston API, integrate winston into a project, troubleshoot winston errors, or build winston automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [winston]
+  tags: [winston, api, automation, integration]
 ---
 
 # Winston Skill

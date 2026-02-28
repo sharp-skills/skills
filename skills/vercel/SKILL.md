@@ -2,11 +2,13 @@
 name: vercel
 description: Work with vercel — integrate, configure, and automate. Use when asked to set up vercel, use vercel API, integrate vercel into a project, troubleshoot vercel errors, or build vercel automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [vercel]
+  tags: [vercel, javascript, nodejs, npm]
 ---
 
 # Vercel Skill

@@ -2,11 +2,13 @@
 name: sqlalchemy
 description: Work with sqlalchemy — integrate, configure, and automate. Use when asked to set up sqlalchemy, use sqlalchemy API, integrate sqlalchemy into a project, troubleshoot sqlalchemy errors, or build sqlalchemy automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [sqlalchemy]
+  tags: [sqlalchemy, api, automation, integration]
 ---
 
 # Sqlalchemy Skill

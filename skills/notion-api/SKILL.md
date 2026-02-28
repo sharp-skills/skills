@@ -2,11 +2,13 @@
 name: notion-api
 description: Work with notion-api — integrate, configure, and automate. Use when asked to set up notion-api, use notion-api API, integrate notion-api into a project, troubleshoot notion-api errors, or build notion-api automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [notion-api]
+  tags: [notion-api, javascript, nodejs, npm]
 ---
 
 # Notion-Api Skill

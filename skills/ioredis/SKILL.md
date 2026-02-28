@@ -2,11 +2,13 @@
 name: ioredis
 description: Work with ioredis — integrate, configure, and automate. Use when asked to set up ioredis, use ioredis API, integrate ioredis into a project, troubleshoot ioredis errors, or build ioredis automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [ioredis]
+  tags: [ioredis, api, automation, integration, queue, async, messaging]
 ---
 
 # Ioredis Skill

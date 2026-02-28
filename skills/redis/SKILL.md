@@ -2,6 +2,8 @@
 name: redis
 description: "Production-grade Redis client patterns for Node.js and Python. Use when asked to: configure Redis connection pools, handle pool exhaustion, set up Redis Cluster with sharding, avoid hot key bottlenecks, configure memory eviction policies to prevent OOM, harden Redis with TLS and ACL authentication, pipeline or batch commands for throughput, implement cache-aside or write-through patterns with TTL management."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

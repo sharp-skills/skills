@@ -2,11 +2,13 @@
 name: react-query
 description: Work with react-query — integrate, configure, and automate. Use when asked to set up react-query, use react-query API, integrate react-query into a project, troubleshoot react-query errors, or build react-query automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [react-query]
+  tags: [react-query, javascript, nodejs, npm]
 ---
 
 # React-Query Skill

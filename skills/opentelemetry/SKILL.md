@@ -2,11 +2,13 @@
 name: opentelemetry
 description: Work with opentelemetry — integrate, configure, and automate. Use when asked to set up opentelemetry, use opentelemetry API, integrate opentelemetry into a project, troubleshoot opentelemetry errors, or build opentelemetry automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [opentelemetry]
+  tags: [opentelemetry, api, automation, integration]
 ---
 
 # Opentelemetry Skill

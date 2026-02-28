@@ -2,11 +2,13 @@
 name: husky
 description: Work with husky — integrate, configure, and automate. Use when asked to set up husky, use husky API, integrate husky into a project, troubleshoot husky errors, or build husky automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [husky]
+  tags: [husky, api, automation, integration]
 ---
 
 # Husky Skill

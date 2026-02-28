@@ -2,11 +2,13 @@
 name: nginx
 description: Work with nginx — integrate, configure, and automate. Use when asked to set up nginx, use nginx API, integrate nginx into a project, troubleshoot nginx errors, or build nginx automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [nginx]
+  tags: [nginx, api, automation, integration]
 ---
 
 # Nginx Skill

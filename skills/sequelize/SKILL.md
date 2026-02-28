@@ -2,11 +2,13 @@
 name: sequelize
 description: Work with sequelize — integrate, configure, and automate. Use when asked to set up sequelize, use sequelize API, integrate sequelize into a project, troubleshoot sequelize errors, or build sequelize automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [sequelize]
+  tags: [sequelize, api, automation, integration]
 ---
 
 # Sequelize Skill

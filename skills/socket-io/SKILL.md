@@ -2,11 +2,13 @@
 name: socket-io
 description: Work with socket-io — integrate, configure, and automate. Use when asked to set up socket-io, use socket-io API, integrate socket-io into a project, troubleshoot socket-io errors, or build socket-io automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [socket-io]
+  tags: [socket-io, api, automation, integration]
 ---
 
 # Socket-Io Skill

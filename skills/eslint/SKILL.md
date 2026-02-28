@@ -2,11 +2,13 @@
 name: eslint
 description: Work with eslint — integrate, configure, and automate. Use when asked to set up eslint, use eslint API, integrate eslint into a project, troubleshoot eslint errors, or build eslint automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [eslint]
+  tags: [eslint, api, automation, integration]
 ---
 
 # Eslint Skill

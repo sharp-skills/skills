@@ -2,11 +2,13 @@
 name: supertest
 description: Work with supertest — integrate, configure, and automate. Use when asked to set up supertest, use supertest API, integrate supertest into a project, troubleshoot supertest errors, or build supertest automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [supertest]
+  tags: [supertest, javascript, nodejs, npm, testing, qa]
 ---
 
 # Supertest Skill

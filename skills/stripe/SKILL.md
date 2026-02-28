@@ -2,6 +2,8 @@
 name: stripe
 description: "Integrates Stripe payment processing into applications using the official Stripe SDK (Python or Node.js). Use when asked to: accept credit card payments, set up subscriptions or recurring billing, handle Stripe webhooks, create Stripe Checkout sessions, manage customers and payment methods, issue refunds, set up Stripe Connect for marketplace payments, or retrieve invoices and payment history."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

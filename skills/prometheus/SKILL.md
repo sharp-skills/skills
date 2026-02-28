@@ -2,11 +2,13 @@
 name: prometheus
 description: Work with prometheus — integrate, configure, and automate. Use when asked to set up prometheus, use prometheus API, integrate prometheus into a project, troubleshoot prometheus errors, or build prometheus automation.
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [prometheus]
+  tags: [prometheus, api, automation, integration, logging, monitoring, observability]
 ---
 
 # Prometheus Skill

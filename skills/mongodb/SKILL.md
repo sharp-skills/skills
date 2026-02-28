@@ -2,6 +2,8 @@
 name: mongodb
 description: "Provides production-grade MongoDB patterns for Node.js applications using the official mongodb@7 driver. Use when asked to: connect to a MongoDB replica set, configure write concern or read preference, design indexes for high-cardinality queries, tune connection pool settings, enforce schema validation at the database level, handle replica set failover, diagnose connection pool exhaustion, or configure operation timeouts for production workloads."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

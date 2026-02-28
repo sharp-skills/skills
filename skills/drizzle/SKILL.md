@@ -2,6 +2,8 @@
 name: drizzle-orm
 description: "Drizzle ORM is a lightweight, type-safe TypeScript ORM for PostgreSQL, MySQL, and SQLite (including serverless databases like Neon, Turso, PlanetScale, Supabase, and Cloudflare D1). Use when asked to: set up a TypeScript ORM for a Node.js project, define database schemas with full type safety, write SQL-like queries in TypeScript, generate and run database migrations, connect to serverless or edge databases, replace Prisma or TypeORM with something lighter, use Drizzle with Next.js or Remix, query relational data with joins."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

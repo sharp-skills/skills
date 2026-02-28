@@ -2,6 +2,8 @@
 name: weaviate
 description: "Production-grade vector database operations with Weaviate. Use when asked to: connect to Weaviate with API key authentication, rotate API keys without downtime, import large datasets in batches, handle batch import failures and partial errors, configure shard replication for high availability, recover from node failures, tune memory and resource limits, monitor heap pressure and OOM conditions, set up multi-tenancy, or debug stuck backups and crash-loop restarts."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0

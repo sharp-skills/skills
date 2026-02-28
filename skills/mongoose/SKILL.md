@@ -2,11 +2,13 @@
 name: mongoose
 description: Work with mongoose — integrate, configure, and automate. Use when asked to set up mongoose, use mongoose API, integrate mongoose into a project, troubleshoot mongoose errors, or build mongoose automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [mongoose]
+  tags: [mongoose, api, automation, integration]
 ---
 
 # Mongoose Skill

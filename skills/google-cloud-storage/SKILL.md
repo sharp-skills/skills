@@ -2,11 +2,13 @@
 name: google-cloud-storage
 description: Work with google-cloud-storage — integrate, configure, and automate. Use when asked to set up google-cloud-storage, use google-cloud-storage API, integrate google-cloud-storage into a project, troubleshoot google-cloud-storage errors, or build google-cloud-storage automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [google-cloud-storage]
+  tags: [google-cloud-storage, api, automation, integration, cloud, infrastructure, devops]
 ---
 
 # Google-Cloud-Storage Skill

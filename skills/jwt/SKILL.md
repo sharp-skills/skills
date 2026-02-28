@@ -2,11 +2,13 @@
 name: jwt
 description: Work with jwt — integrate, configure, and automate. Use when asked to set up jwt, use jwt API, integrate jwt into a project, troubleshoot jwt errors, or build jwt automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [jwt]
+  tags: [jwt, javascript, nodejs, npm, security, authentication]
 ---
 
 # Jwt Skill

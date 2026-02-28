@@ -2,11 +2,13 @@
 name: prettier
 description: Work with prettier — integrate, configure, and automate. Use when asked to set up prettier, use prettier API, integrate prettier into a project, troubleshoot prettier errors, or build prettier automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [prettier]
+  tags: [prettier, api, automation, integration]
 ---
 
 # Prettier Skill

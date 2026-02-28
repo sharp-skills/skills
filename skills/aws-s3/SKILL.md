@@ -2,6 +2,8 @@
 name: aws-s3
 description: "Production-depth AWS S3 skill covering request rate limits and prefix partitioning, multipart upload failure recovery and cleanup, VPC endpoints for private S3 access, and account-level Block Public Access enforcement. Use when asked to: upload large files to S3 with retry logic, fix S3 503 SlowDown errors under high request rates, configure S3 VPC gateway or interface endpoints, enforce S3 Block Public Access at the account level, recover or clean up stuck multipart uploads, partition S3 key prefixes for throughput scaling, restrict S3 access to a specific VPC, or audit and abort incomplete multipart uploads to reduce storage costs."
 license: Apache-2.0
+compatibility:
+- any
 metadata:
   author: SharpSkills
   version: 1.0.0

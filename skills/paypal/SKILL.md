@@ -2,11 +2,13 @@
 name: paypal
 description: Work with paypal — integrate, configure, and automate. Use when asked to set up paypal, use paypal API, integrate paypal into a project, troubleshoot paypal errors, or build paypal automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [paypal]
+  tags: [paypal, api, automation, integration]
 ---
 
 # Paypal Skill

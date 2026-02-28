@@ -2,11 +2,13 @@
 name: pg
 description: Work with pg — integrate, configure, and automate. Use when asked to set up pg, use pg API, integrate pg into a project, troubleshoot pg errors, or build pg automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [pg]
+  tags: [pg, api, automation, integration]
 ---
 
 # Pg Skill

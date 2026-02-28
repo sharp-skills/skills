@@ -2,11 +2,13 @@
 name: celery
 description: Work with celery — integrate, configure, and automate. Use when asked to set up celery, use celery API, integrate celery into a project, troubleshoot celery errors, or build celery automation.
 license: Apache-2.0
+compatibility:
+- python >= 3.9
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [celery]
+  tags: [celery, python, pip, queue, async, messaging]
 ---
 
 # Celery Skill

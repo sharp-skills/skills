@@ -2,11 +2,13 @@
 name: vite
 description: Work with vite — integrate, configure, and automate. Use when asked to set up vite, use vite API, integrate vite into a project, troubleshoot vite errors, or build vite automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [vite]
+  tags: [vite, api, automation, integration]
 ---
 
 # Vite Skill

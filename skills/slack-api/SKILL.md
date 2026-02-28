@@ -2,11 +2,13 @@
 name: slack-api
 description: Work with slack-api — integrate, configure, and automate. Use when asked to set up slack-api, use slack-api API, integrate slack-api into a project, troubleshoot slack-api errors, or build slack-api automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [slack-api]
+  tags: [slack-api, api, automation, integration]
 ---
 
 # Slack-Api Skill

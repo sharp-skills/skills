@@ -2,11 +2,13 @@
 name: lodash
 description: Work with lodash — integrate, configure, and automate. Use when asked to set up lodash, use lodash API, integrate lodash into a project, troubleshoot lodash errors, or build lodash automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [lodash]
+  tags: [lodash, javascript, nodejs, npm]
 ---
 
 # Lodash Skill

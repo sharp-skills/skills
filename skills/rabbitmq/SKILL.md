@@ -2,11 +2,13 @@
 name: rabbitmq
 description: Work with rabbitmq — integrate, configure, and automate. Use when asked to set up rabbitmq, use rabbitmq API, integrate rabbitmq into a project, troubleshoot rabbitmq errors, or build rabbitmq automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [rabbitmq]
+  tags: [rabbitmq, api, automation, integration]
 ---
 
 # Rabbitmq Skill

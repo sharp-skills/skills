@@ -2,11 +2,13 @@
 name: yup
 description: Work with yup — integrate, configure, and automate. Use when asked to set up yup, use yup API, integrate yup into a project, troubleshoot yup errors, or build yup automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [yup]
+  tags: [yup, api, automation, integration]
 ---
 
 # Yup Skill

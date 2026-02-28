@@ -2,11 +2,13 @@
 name: rate-limiter-flexible
 description: Work with rate-limiter-flexible — integrate, configure, and automate. Use when asked to set up rate-limiter-flexible, use rate-limiter-flexible API, integrate rate-limiter-flexible into a project, troubleshoot rate-limiter-flexible errors, or build rate-limiter-flexible automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [rate-limiter-flexible]
+  tags: [rate-limiter-flexible, javascript, nodejs, npm]
 ---
 
 # Rate-Limiter-Flexible Skill

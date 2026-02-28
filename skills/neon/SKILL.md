@@ -2,11 +2,13 @@
 name: neon
 description: Work with neon — integrate, configure, and automate. Use when asked to set up neon, use neon API, integrate neon into a project, troubleshoot neon errors, or build neon automation.
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
   category: development
-  tags: [neon]
+  tags: [neon, api, automation, integration]
 ---
 
 # Neon Skill

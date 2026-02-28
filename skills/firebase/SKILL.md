@@ -2,6 +2,8 @@
 name: firebase
 description: "Integrates Firebase services (Authentication, Firestore, Realtime Database, Storage, Cloud Functions, FCM, Analytics, Remote Config, App Check) into web and Node.js applications. Use when asked to: set up Firebase in a web or Node.js app, implement user authentication with Firebase, read or write data to Firestore or Realtime Database, upload files to Firebase Storage, send push notifications with Firebase Cloud Messaging, call Cloud Functions from a client, configure Firebase Remote Config, or protect a backend with Firebase App Check."
 license: Apache-2.0
+compatibility:
+- node >= 16
 metadata:
   author: SharpSkills
   version: 1.0.0
