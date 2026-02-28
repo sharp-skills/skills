@@ -22,3 +22,4 @@ test_reports/
 .vscode/
 .idea/
 *.swp
+.cache/
