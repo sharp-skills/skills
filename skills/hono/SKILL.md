@@ -19,9 +19,6 @@ metadata:
   - deno
   - node
   - api-development
-trace_id: 5294d6dde842
-generated_at: '2026-02-28T21:58:45'
-generator: sharpskill-v2.6.0
 ---
 
 # Hono Skill
