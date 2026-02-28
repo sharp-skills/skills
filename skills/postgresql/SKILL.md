@@ -9,6 +9,9 @@ metadata:
   version: 1.0.0
   category: database
   tags: [postgresql, pgbouncer, replication, partitioning, vacuum, production, devops]
+trace_id: 1516edb354a5
+generated_at: '2026-02-28T22:43:29'
+generator: sharpskill-v1.0 (legacy)
 ---
 
 # PostgreSQL Production Skill
