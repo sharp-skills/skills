@@ -9,9 +9,6 @@ metadata:
   version: 1.0.0
   category: database
   tags: [mongodb, replica-set, indexing, connection-pool, schema-validation, write-concern, node.js]
-trace_id: df2190b61a3e
-generated_at: '2026-02-28T22:43:27'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # MongoDB Skill
