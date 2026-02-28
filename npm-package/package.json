@@ -1,0 +1,22 @@
+{
+  "name": "sharp-skills",
+  "version": "1.0.0",
+  "description": "Install AI agent skills (SKILL.md) for Claude Code, Cursor, Gemini CLI, Codex",
+  "bin": {
+    "sharp-skills": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node bin/cli.js list"
+  },
+  "keywords": ["ai", "agent", "skill", "claude-code", "cursor", "gemini", "llm", "skill-md"],
+  "author": "sharp-skills",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sharp-skills/skills"
+  },
+  "homepage": "https://github.com/sharp-skills/skills",
+  "engines": {
+    "node": ">=18"
+  }
+}
