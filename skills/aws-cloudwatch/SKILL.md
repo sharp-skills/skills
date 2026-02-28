@@ -9,9 +9,6 @@ metadata:
   version: 1.0.0
   category: devops
   tags: [aws-cloudwatch, aws, metrics, monitoring, cloudwatch, putMetricData, observability]
-trace_id: 959f4039d719
-generated_at: '2026-02-28T22:43:17'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # AWS-CloudWatch Skill
