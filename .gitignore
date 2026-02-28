@@ -23,3 +23,17 @@ test_reports/
 .idea/
 *.swp
 .cache/
+
+# Dev scripts (kept locally, not for public repo)
+sharpskill.py
+test_bot.py
+batch_run.py
+dedup.py
+batch_results.json
+tools_batch1.txt
+tools_priority.txt
+repo_backup.md
+test_reports/
+
+# Draft test artifacts
+drafts/**/test_report.json
