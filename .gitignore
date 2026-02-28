@@ -37,3 +37,7 @@ test_reports/
 
 # Draft test artifacts
 drafts/**/test_report.json
+drafts/_todo/
+drafts/_todo/
+regen_skills.py
+regen_todo.sh
