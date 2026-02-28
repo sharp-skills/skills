@@ -11,9 +11,6 @@ metadata:
   version: 1.1.0
   category: devops
   tags: [argocd, gitops, kubernetes, deployment, continuous-delivery, helm, kustomize]
-trace_id: 08c13a732497
-generated_at: '2026-02-28T22:43:16'
-generator: sharpskill-v1.0 (legacy)
 ---
 
 # Argo CD
