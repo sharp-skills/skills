@@ -9,7 +9,17 @@ Use cases come first — they define the real problems people face. Skills are t
 
 ## The Standard: What "Real" Means
 
-Before writing a skill, look at [`skills/stripe/SKILL.md`](skills/stripe/SKILL.md) or [`skills/express/SKILL.md`](skills/express/SKILL.md) as the gold standard.
+Before writing a skill, look at [`skills/tool-call-validator/SKILL.md`](skills/tool-call-validator/SKILL.md) as the gold standard: a practice, the checker that enforces it, fixtures that show it going red, and a self-test.
+
+Two kinds of skill live here, and the bar is the same for both:
+
+- **Tool skills** — how to use one library, service or CLI (its API, its
+  flags, its errors). Written from the official documentation only; every
+  package name and snippet verified against it.
+- **Practice skills** — how to build or operate something (the
+  `multi-agent-engineering` collection). Written from operating a real system;
+  every rule ships with a runnable checker under `scripts/` and fixtures under
+  `examples/` that prove the checker catches the failure it describes.
 
 A skill is **real** when:
 - Every code snippet runs without modification (no TODOs, no `// ...`, no placeholder values)
@@ -17,6 +27,7 @@ A skill is **real** when:
 - Patterns come from the tool's official docs or real GitHub Issues/Stack Overflow
 - The Failure Modes table lists errors users actually encounter (copied from real issues)
 - Pre-Deploy Checklist reflects production experience
+- For a practice skill: the checker goes red on the bad fixture and green on the good one, and `examples/selftest.sh` proves it
 
 A skill is **not acceptable** when it contains:
 - `// TODO: ...` or placeholder comments
@@ -44,28 +55,33 @@ Skills that belong to an audited set live in `skills/` like any other and are
 listed by their collection under `bundles/<collection>/`, which holds the
 collection's README, demos and one-command audit.
 
-### SKILL.md Template
+### Front matter
 
-```markdown
+`name`, `description` and `license` are required; the rest is optional but
+welcome. Quote or fold the description (`>-`) — an unquoted `: ` inside it is
+invalid YAML and fails CI.
+
+```yaml
 ---
 name: your-skill-name
 description: >-
   What it does and when to use it. Use when asked to: list 6-8 specific
   trigger phrases that match what users actually type.
 license: Apache-2.0
-compatibility:
+compatibility:          # optional
   - node >= 18
   - python >= 3.9
-metadata:
+metadata:               # optional
   author: your-github-username
   version: 1.0.0
   category: development
-  tags:
-    - primary-tag
-    - secondary-tag
-    - language
-    - use-case
+  tags: [primary-tag, secondary-tag, language, use-case]
 ---
+```
+
+### Tool skill template
+
+```markdown
 
 # Tool Name
 
@@ -110,6 +126,15 @@ Numbered gotchas from official docs and real GitHub Issues.
 - GitHub: https://...
 ```
 
+### Practice skill shape
+
+No fixed template — see any skill in `skills/` from the
+`multi-agent-engineering` collection. What every one of them has: the rule and
+why it exists, what goes wrong without it, a checker in `scripts/` (stdlib
+only, offline, exit 0/1), good and bad fixtures in `examples/` with a note on
+*why* the bad one fails, and `examples/selftest.sh` that runs the checker
+against both.
+
 ---
 
 ## Before Writing a Skill
@@ -151,13 +176,13 @@ Concrete pain point.
 
 ### 1. First step
 
-Exact prompt: "Add Stripe subscriptions to my Express app"
+Exact prompt: "Validate every tool call my agent makes before it runs"
 
 ## Real-World Example
 Specific persona + situation + outcome.
 
 ## Related Skills
-- [stripe](../skills/stripe/) — payment processing patterns
+- [tool-call-validator](../skills/tool-call-validator/) — pre-flight check on agent tool calls
 ```
 
 ---
@@ -182,6 +207,7 @@ git commit -m "Add use case: your-slug"
 
 | Category | Description |
 |---|---|
+| `agents` | Building and operating LLM agents and multi-agent systems |
 | `development` | APIs, SDKs, libraries, frameworks |
 | `devops` | Docker, CI/CD, infrastructure, Kubernetes |
 | `data-ai` | Databases, ML, AI, vector stores |
