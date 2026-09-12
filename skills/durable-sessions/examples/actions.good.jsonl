@@ -1,0 +1,11 @@
+# A week-long booking session, logged so it can survive a crash mid-flight.
+{"session_id":"s-7f21","action_id":"a01","kind":"user_prompt","status":"ok","prompt":"Where are you travelling and what is the budget?","result":{"destination":"Kyoto","budget_gbp":2400}}
+{"session_id":"s-7f21","action_id":"a02","kind":"llm_call","status":"ok","model":"main","result_ref":"blob://sessions/s-7f21/a02.json"}
+{"session_id":"s-7f21","action_id":"a03","kind":"external_read","status":"ok","cacheable":true,"cache_key":"flightsearch:LHR-KIX:2026-11-02","ttl_s":86400,"result":{"quotes":3}}
+{"session_id":"s-7f21","action_id":"a04","kind":"tool_call","status":"error","retryable":true,"max_attempts":3,"attempts":2,"error":"upstream 503"}
+{"session_id":"s-7f21","action_id":"a05","kind":"tool_call","status":"ok","retryable":true,"max_attempts":3,"attempts":3,"result":{"seat_map":"ok"}}
+{"session_id":"s-7f21","action_id":"a06","kind":"clock","status":"ok","result":{"now":"2026-11-01T09:14:00Z"}}
+{"session_id":"s-7f21","action_id":"a07","kind":"payment","status":"ok","idempotency_key":"pay-s-7f21-a07","amount_gbp":2180,"result":{"charge":"ch_18f2"}}
+{"session_id":"s-7f21","action_id":"a08","kind":"email","status":"ok","replay":"skip","to":"traveller","result":null}
+{"session_id":"s-7f21","action_id":"a09","kind":"write","status":"ok","idempotency_key":"itinerary-s-7f21","result":{"rows":1}}
+{"session_id":"s-7f21","action_id":"a10","kind":"tool_call","status":"error","retryable":false,"on_failure":"ask_user","error":"no seats in budget"}

@@ -1,0 +1,10 @@
+{
+  "override_env": "GOVERNANCE_OVERRIDE",
+  "no_touch": [
+    {"path": "config/registry.json", "reason": "single source of truth"},
+    {"path": "migrations/*",         "reason": "immutable once applied"}
+  ],
+  "secret_globs": [".env", ".env.*", "*credentials*", "id_rsa*"],
+  "secret_cmd_patterns": ["\\bcat\\b[^|;&]*\\.env\\b", "printenv"],
+  "drift_files": ["demo/config/*.json"]
+}

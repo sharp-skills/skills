@@ -1,0 +1,4 @@
+{"id": "c1", "text": "The quarterly report shows revenue up 12%.", "source": "untrusted", "delimited": true}
+{"id": "c2", "text": "Summarize the following support tickets by theme.", "source": "trusted", "delimited": false}
+{"id": "c3", "text": "User asked how to reset their password.", "source": "untrusted", "delimited": true}
+{"id": "c4", "text": "The vendor quoted a 6-week lead time.", "source": "web", "delimited": true, "marker": "<<DATA-9f3a12c7>>"}

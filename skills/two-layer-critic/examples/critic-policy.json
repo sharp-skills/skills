@@ -1,0 +1,5 @@
+{"tiers": {"FAST": null, "STANDARD": "cheap", "DEEP": "premium"},
+ "max_findings": 3,
+ "required_finding_fields": ["severity", "location", "claim", "fix_direction"],
+ "severities": ["HIGH", "MEDIUM", "LOW"],
+ "verdicts": ["PASS", "FAIL"]}

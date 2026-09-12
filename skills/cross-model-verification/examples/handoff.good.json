@@ -1,0 +1,4 @@
+{"objective": "Add token refresh endpoint",
+ "files_to_modify": ["src/api/refresh.ts"],
+ "no_touch_zones": ["src/auth/providers/*", "migrations/*"],
+ "acceptance_criteria": ["POST /api/refresh returns 200 <200ms", "expired token -> 401"]}

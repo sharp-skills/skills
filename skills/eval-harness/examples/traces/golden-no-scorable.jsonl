@@ -1,0 +1,2 @@
+{"trace_id": "golden-no-scorable", "ts": "2026-07-05T12:20:00Z", "kind": "trace_start", "span": "root", "step": 0, "agent": "orchestrator", "status": "started", "input_tokens": 0, "output_tokens": 0, "parent": null}
+{"trace_id": "golden-no-scorable", "ts": "2026-07-05T12:20:01Z", "kind": "trace_end", "span": "root", "step": 1, "agent": "orchestrator", "status": "ok", "input_tokens": 0, "output_tokens": 0, "parent": null}

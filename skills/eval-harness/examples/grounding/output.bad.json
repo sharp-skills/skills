@@ -1,0 +1,7 @@
+{
+  "claims": [
+    {"id": "b1", "text": "Revenue rose 40% in Q2.", "sources": []},
+    {"id": "b2", "text": "The company opened three new offices in Berlin.", "sources": ["s2"]},
+    {"id": "b3", "text": "Margins improved due to a pricing change.", "sources": ["s9"]}
+  ]
+}

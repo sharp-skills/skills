@@ -1,0 +1,16 @@
+{
+  "entry_events": ["GOAL_RECEIVED"],
+  "terminal_events": ["RUN_ARCHIVED", "CONTENT_SHIPPED"],
+  "agents": {
+    "analyst":    {"publishes": ["ANALYSIS_COMPLETE"], "subscribes_to": ["GOAL_RECEIVED"]},
+    "planner":    {"publishes": ["PLAN_READY"],        "subscribes_to": ["ANALYSIS_COMPLETE"]},
+    "engineer":   {"publishes": ["BUILD_COMPLETE"],    "subscribes_to": ["PLAN_READY"]},
+    "reviewer":   {"publishes": ["REVIEW_PASSED"],     "subscribes_to": ["BUILD_COMPLETE"]},
+    "closer":     {"publishes": ["RUN_ARCHIVED", "CONTENT_SHIPPED"], "subscribes_to": ["REVIEW_PASSED", "COPY_READY"]},
+    "legal":      {"publishes": ["LEGAL_CLEARED"],     "subscribes_to": ["PLAN_READY"]},
+    "designer":   {"publishes": ["ASSETS_READY"],      "subscribes_to": ["PLAN_READY"]},
+    "copywriter": {"publishes": ["COPY_READY"],        "subscribes_to": ["ANALYSIS_COMPLETE"]},
+    "devops":     {"publishes": ["DEPLOYED"],          "subscribes_to": ["REVIEW_PASSED"]},
+    "marketer":   {"publishes": ["CAMPAIGN_LIVE"],     "subscribes_to": ["RUN_ARCHIVED"]}
+  }
+}

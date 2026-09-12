@@ -1,0 +1,5 @@
+{"tool": "read_file", "args": {"path": "src/index.ts"}}
+{"tool": "bash", "args": {"command": "npm run build"}}
+{"tool": "bash", "args": {"command": "rm -rf dist"}, "approved": true}
+{"tool": "write_file", "args": {"path": "dist/out.js", "content": "// built"}, "approved": true}
+{"tool": "http_get", "args": {"url": "https://api.example.com/health"}}

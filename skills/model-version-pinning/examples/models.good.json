@@ -1,0 +1,38 @@
+{
+  "_note": "A manifest that can survive a model release. Every component names an exact artifact, replays a frozen probe set, keeps a human or a shadow run between a release and users, and records the toolchain it was verified with.",
+  "components": [
+    {
+      "id": "orchestrator",
+      "model": "vendor-large-4-1-20260318",
+      "resolved": "vendor-large-4-1-20260318",
+      "probe_set": "probes/orchestrator.jsonl",
+      "upgrade": "shadow",
+      "runtime": { "client": "vendor-cli", "version": "2.1.216" },
+      "compare": "trajectory",
+      "pinned_at": "2026-03-20",
+      "_why": "The reasoning seat. Shadow-run every release before it reaches a user."
+    },
+    {
+      "id": "intent-classifier",
+      "model": "vendor-small-3-20251101",
+      "resolved": "vendor-small-3-20251101",
+      "probe_set": "probes/intent-labels.jsonl",
+      "upgrade": "manual",
+      "runtime": null,
+      "compare": "trajectory+score",
+      "pinned_at": "2025-11-05",
+      "_why": "Called over HTTP with no vendor client, so runtime is explicitly null — a decision on the record, not an omission."
+    },
+    {
+      "id": "summarizer",
+      "model": "other-vendor-medium-2026-01-09",
+      "resolved": "other-vendor-medium-2026-01-09",
+      "probe_set": "probes/summaries.jsonl",
+      "upgrade": "shadow",
+      "runtime": { "client": "other-sdk", "version": "0.14.5" },
+      "compare": "trajectory",
+      "pinned_at": "2026-01-12",
+      "_why": "Second vendor on purpose — the manifest is the one place that shows the whole spread."
+    }
+  ]
+}

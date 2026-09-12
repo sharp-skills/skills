@@ -1,0 +1,6 @@
+{
+  "big-cloud-main":    {"context_window": 400000},
+  "flash-summarizer":  {"context_window": 1000000},
+  "small-local-3b":    {"context_window": 8192},
+  "same-as-main":      {"context_window": 400000}
+}

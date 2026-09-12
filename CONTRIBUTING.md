@@ -30,10 +30,19 @@ A skill is **not acceptable** when it contains:
 
 ```
 skills/your-skill-name/
-└── SKILL.md         # Required. Exact filename, case-sensitive.
+├── SKILL.md         # Required. Exact filename, case-sensitive.
+├── scripts/         # Optional. Runnable checkers/tools the skill refers to.
+├── references/      # Optional. Longer material SKILL.md links to.
+└── examples/        # Optional. Fixtures and a self-test (examples/selftest.sh).
 ```
 
-No `README.md` inside the skill folder.
+`SKILL.md` is the only required file and must stand on its own. No `README.md`
+at the skill root — `SKILL.md` is the skill's front page (a `README.md` inside
+`examples/` that explains the fixtures is fine).
+
+Skills that belong to an audited set live in `skills/` like any other and are
+listed by their collection under `bundles/<collection>/`, which holds the
+collection's README, demos and one-command audit.
 
 ### SKILL.md Template
 

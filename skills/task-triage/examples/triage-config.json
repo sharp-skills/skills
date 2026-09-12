@@ -1,0 +1,33 @@
+{
+  "core": ["analyst", "planner", "engineer", "reviewer", "closer"],
+  "groups": {
+    "legal":    ["legal"],
+    "creative": ["designer", "copywriter"],
+    "infra":    ["devops"],
+    "growth":   ["marketer"]
+  },
+  "templates": {
+    "code-utility": [],
+    "feature":      ["infra"],
+    "website":      ["creative", "growth"],
+    "content":      [],
+    "full":         ["legal", "creative", "infra", "growth"]
+  },
+  "default_template": "full",
+  "template_keywords": [
+    ["content",      "(blog|article|post|newsletter|контент|статья|пост)"],
+    ["website",      "(website|landing|homepage|сайт|лендинг)"],
+    ["code-utility", "(function|utility|helper|snippet|функци|утилит)"],
+    ["feature",      "(feature|api|endpoint|integration|фича|интеграци)"]
+  ],
+  "force_rules": [
+    ["legal", "(pii|gdpr|payment|billing|stripe|compliance|оплат|платеж|платёж|персональн)"]
+  ],
+  "short_routes": {
+    "content": {
+      "core": ["analyst", "copywriter", "closer"],
+      "extras": {"creative": "(image|banner|картинк|баннер)"}
+    }
+  },
+  "registry_agents_path": "agents"
+}

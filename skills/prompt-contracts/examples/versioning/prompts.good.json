@@ -1,0 +1,33 @@
+{
+  "prompts": {
+    "planner": {
+      "active": "v3",
+      "file": "planner.txt",
+      "rollback_to": "v2",
+      "versions": {
+        "v1": {
+          "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "changelog": "initial planner"
+        },
+        "v2": {
+          "hash": "1111111111111111111111111111111111111111111111111111111111111111",
+          "changelog": "forbid inventing files"
+        },
+        "v3": {
+          "hash": "ce049962d3998969a7e9778f03a2b4b8771876d39d8fba8fcb7a915e385ca2ce",
+          "changelog": "order steps, require verifiability"
+        }
+      }
+    },
+    "router": {
+      "active": "v1",
+      "file": "router.txt",
+      "versions": {
+        "v1": {
+          "hash": "71d65914f97cf25be34976c632626768ccdbdab3e23cdb9292bcf2b8acceb459",
+          "changelog": "initial router"
+        }
+      }
+    }
+  }
+}

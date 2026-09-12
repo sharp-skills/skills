@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Event Envelope",
+  "description": "The wire contract for a single event as it crosses the bus. Every runtime MUST emit and accept this shape so the control plane re-enters identically wherever an agent ran. The runtime enum MUST stay equal to the dispatcher's routable runtime set (see runtimes.source).",
+  "type": "object",
+  "required": ["trace_id", "agent", "event", "runtime", "ts"],
+  "additionalProperties": true,
+  "properties": {
+    "trace_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Correlation id carried across local and remote steps of one run."
+    },
+    "agent": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Short id of the emitting agent; matches the registry."
+    },
+    "event": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Event type / output status; drives subscription routing."
+    },
+    "runtime": {
+      "type": "string",
+      "enum": ["main", "worker", "verifier", "browser", "code"],
+      "description": "Where the emitting agent executed. Must equal the dispatcher's routable runtime set."
+    },
+    "ts": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO-8601 UTC timestamp of emission."
+    },
+    "pipeline_mode": {
+      "type": "string",
+      "enum": ["FAST", "STANDARD", "DEEP", "CRISIS"],
+      "description": "Run mode, set once at phase 0; read-only downstream."
+    },
+    "confidence_score": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Decision agents emit 0-100; null/absent for infra agents."
+    },
+    "payload": {
+      "type": "object",
+      "description": "Agent-specific body. Opaque to the bus; validated against the per-event schema separately."
+    }
+  }
+}

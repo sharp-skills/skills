@@ -1,0 +1,1 @@
+{"requirements": ["token refresh endpoint", "single-use refresh tokens", "audit log entry per refresh"]}

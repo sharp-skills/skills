@@ -1,0 +1,1 @@
+{"extra_allowed": ["PIPELINE_FAILED"], "allowed_suffixes": ["_SKIPPED"], "exempt": ["event_bus"]}

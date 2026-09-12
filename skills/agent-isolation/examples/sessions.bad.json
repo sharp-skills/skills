@@ -1,0 +1,23 @@
+{
+  "forbidden_identities": ["owner-primary-email", "owner-bank", "owner-password-manager", "work-sso"],
+  "sessions": {
+    "assistant": {
+      "identity": "owner-primary-email",
+      "approval_required": false,
+      "capabilities": ["logged_in_browser", "inbound_email", "send_email"],
+      "_note": "the classic mistake: reads inbound (untrusted) while logged into a sensitive account AND able to send — full trifecta, no approval, and running as the owner's primary identity"
+    },
+    "poster": {
+      "identity": "agent-scoped",
+      "approval_required": false,
+      "capabilities": ["web_read", "publish"],
+      "_note": "publish is irreversible and ungated"
+    },
+    "mystery": {
+      "identity": "agent-scoped",
+      "approval_required": true,
+      "capabilities": ["telepathy"],
+      "_note": "unclassified capability — could hide any leg"
+    }
+  }
+}

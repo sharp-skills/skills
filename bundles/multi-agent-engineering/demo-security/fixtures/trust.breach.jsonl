@@ -1,0 +1,2 @@
+{"id": "b1", "claimed_source": "orchestrator", "channel": "forwarded", "asks": ["send_external"]}
+{"id": "b2", "claimed_source": "content", "channel": "env", "asks": ["escalate_scope"]}

@@ -1,0 +1,11 @@
+{
+  "forbidden_identities": ["owner-primary-email", "owner-bank", "owner-password-manager", "work-sso"],
+  "sessions": {
+    "assistant": {
+      "identity": "owner-primary-email",
+      "approval_required": false,
+      "capabilities": ["logged_in_browser", "inbound_dm", "web_read", "http_post"],
+      "_note": "one do-everything session: reads untrusted content, is logged into a sensitive account, and can send out — the full lethal trifecta, ungated, running as the owner's own identity"
+    }
+  }
+}

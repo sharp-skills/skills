@@ -1,0 +1,4 @@
+{"objective": "Add token refresh endpoint",
+ "files_to_modify": ["src/api/refresh.ts", "migrations/002_tokens.sql"],
+ "no_touch_zones": ["migrations/002_tokens.sql"],
+ "acceptance_criteria": []}

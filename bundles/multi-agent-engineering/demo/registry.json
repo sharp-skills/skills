@@ -1,0 +1,17 @@
+{
+  "bus_derives_from_registry": true,
+  "entry_events": ["GOAL_RECEIVED"],
+  "terminal_events": ["RUN_ARCHIVED"],
+  "agents": [
+    {"id": "analyst",   "publishes": ["ANALYSIS_COMPLETE"], "subscribes_to": ["GOAL_RECEIVED"]},
+    {"id": "engineer",  "publishes": ["BUILD_COMPLETE"],    "subscribes_to": ["ANALYSIS_COMPLETE"]},
+    {"id": "reviewer",  "publishes": ["RUN_ARCHIVED"],      "subscribes_to": ["BUILD_COMPLETE"]},
+    {"id": "event_bus", "publishes": [],                    "subscribes_to": ["ALL"]}
+  ],
+  "bus_graph": {
+    "GOAL_RECEIVED":     ["analyst"],
+    "ANALYSIS_COMPLETE": ["engineer"],
+    "BUILD_COMPLETE":    ["reviewer"],
+    "RUN_ARCHIVED":      []
+  }
+}

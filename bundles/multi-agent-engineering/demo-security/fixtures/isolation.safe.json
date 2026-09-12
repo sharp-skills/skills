@@ -1,0 +1,23 @@
+{
+  "forbidden_identities": ["owner-primary-email", "owner-bank", "owner-password-manager", "work-sso"],
+  "sessions": {
+    "reader": {
+      "identity": "agent-scoped",
+      "approval_required": false,
+      "capabilities": ["web_read", "inbound_dm", "local_scratch"],
+      "_note": "reads the untrusted page — but holds no account and cannot send, so the injection has nothing to steal and no way out"
+    },
+    "operator": {
+      "identity": "agent-scoped",
+      "approval_required": true,
+      "capabilities": ["logged_in_browser", "http_post"],
+      "_note": "sensitive + exfil, but self-initiated only: never fed untrusted input, and every send is human-gated"
+    },
+    "coder": {
+      "identity": "agent-scoped",
+      "approval_required": false,
+      "capabilities": ["code_exec_sandboxed", "local_scratch"],
+      "_note": "no legs at all"
+    }
+  }
+}

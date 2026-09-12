@@ -1,0 +1,63 @@
+{
+  "_note": "A plausible manifest from a team that believes it has pinned its models. Nothing here is malformed — each entry is the kind of declaration a real system ships, and each carries _fails_because so the fixture's intent stays auditable.",
+  "components": [
+    {
+      "id": "floating-alias",
+      "model": "vendor-large-latest",
+      "resolved": "vendor-large-4-1-20260318",
+      "probe_set": "probes/orchestrator.jsonl",
+      "upgrade": "shadow",
+      "runtime": { "client": "vendor-cli", "version": "2.1.216" },
+      "compare": "trajectory",
+      "_fails_because": "The alias resolves at call time. Today it is 4-1; the morning after the next release it is something else, with no commit, no review, and nothing to bisect."
+    },
+    {
+      "id": "alias-drift",
+      "model": "vendor-large-5",
+      "resolved": "vendor-large-5-20260602",
+      "probe_set": "probes/orchestrator.jsonl",
+      "upgrade": "shadow",
+      "runtime": { "client": "vendor-cli", "version": "2.1.216" },
+      "compare": "trajectory",
+      "_fails_because": "Contains no obvious floating word, so it reads as pinned — but the request and the artifact differ, which means the provider is choosing. This is the shape that survives review."
+    },
+    {
+      "id": "no-probes",
+      "model": "vendor-small-3-20251101",
+      "resolved": "vendor-small-3-20251101",
+      "upgrade": "manual",
+      "runtime": null,
+      "compare": "trajectory",
+      "_fails_because": "Pinned, but nothing to compare against. When the pin is finally moved there is no way to say whether behaviour changed — the upgrade becomes a leap of faith."
+    },
+    {
+      "id": "auto-upgrade",
+      "model": "vendor-medium-2-20260210",
+      "resolved": "vendor-medium-2-20260210",
+      "probe_set": "probes/routing.jsonl",
+      "upgrade": "auto",
+      "runtime": { "client": "vendor-cli", "version": "2.1.216" },
+      "compare": "trajectory",
+      "_fails_because": "Pinned and probed, then configured to move the pin by itself. The probe set exists and is never consulted; users are the first to run the new version."
+    },
+    {
+      "id": "runtime-omitted",
+      "model": "vendor-large-4-1-20260318",
+      "resolved": "vendor-large-4-1-20260318",
+      "probe_set": "probes/writer.jsonl",
+      "upgrade": "manual",
+      "compare": "trajectory",
+      "_fails_because": "The model is pinned and the toolchain is not. A client that predates the model can reject it outright, so the migration stalls on a dependency nobody wrote down."
+    },
+    {
+      "id": "score-only",
+      "model": "vendor-small-3-20251101",
+      "resolved": "vendor-small-3-20251101",
+      "probe_set": "probes/labels.jsonl",
+      "upgrade": "shadow",
+      "runtime": null,
+      "compare": "score",
+      "_fails_because": "Only fails under --strict, and that is the point: everything structural is right, and the comparison method still cannot see the failure it exists to catch. Scores hold steady while behaviour moves."
+    }
+  ]
+}

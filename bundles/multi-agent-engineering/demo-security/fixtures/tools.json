@@ -1,0 +1,11 @@
+{
+  "tools": {
+    "read_file": {"required": ["path"]},
+    "write_file": {"required": ["path", "content"], "destructive": true},
+    "bash": {
+      "required": ["command"],
+      "destructive_patterns": ["rm -rf", "\\bdrop\\s+table\\b", "\\btruncate\\b", "mkfs"]
+    },
+    "http_post": {"required": ["url", "body"], "destructive": true}
+  }
+}

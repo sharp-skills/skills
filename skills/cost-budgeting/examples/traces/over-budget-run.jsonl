@@ -1,0 +1,5 @@
+{"trace_id": "over-budget-run", "ts": "2026-07-05T14:00:00Z", "kind": "trace_start", "span": "root", "step": 0, "agent": "orchestrator", "status": "started", "input_tokens": 0, "output_tokens": 0, "parent": null}
+{"trace_id": "over-budget-run", "ts": "2026-07-05T14:00:20Z", "kind": "step_complete", "span": "s1", "step": 1, "agent": "analyst", "tool": null, "status": "ok", "input_tokens": 1900, "output_tokens": 700, "parent": "root"}
+{"trace_id": "over-budget-run", "ts": "2026-07-05T14:04:00Z", "kind": "step_complete", "span": "s2", "step": 2, "agent": "engineer", "tool": null, "status": "ok", "input_tokens": 14000, "output_tokens": 6200, "parent": "root"}
+{"trace_id": "over-budget-run", "ts": "2026-07-05T14:04:30Z", "kind": "step_complete", "span": "s3", "step": 3, "agent": "reviewer", "tool": null, "status": "ok", "input_tokens": 2100, "output_tokens": 400, "parent": "root"}
+{"trace_id": "over-budget-run", "ts": "2026-07-05T14:04:31Z", "kind": "trace_end", "span": "root", "step": 4, "agent": "orchestrator", "status": "ok", "input_tokens": 0, "output_tokens": 0, "parent": null}

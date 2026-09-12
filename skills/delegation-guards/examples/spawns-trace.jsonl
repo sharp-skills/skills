@@ -1,0 +1,7 @@
+{"trace_id": "spawn-run", "ts": "2026-07-07T09:00:00Z", "kind": "trace_start", "span": "root", "step": 0, "agent": "orchestrator", "status": "started", "parent": null}
+{"trace_id": "spawn-run", "ts": "2026-07-07T09:00:05Z", "kind": "step_complete", "span": "planner", "step": 1, "agent": "planner", "status": "ok", "parent": "root"}
+{"trace_id": "spawn-run", "ts": "2026-07-07T09:00:11Z", "kind": "tool_call", "span": "planner-t1", "step": 1, "agent": "planner", "tool": "search", "status": "ok", "parent": "planner"}
+{"trace_id": "spawn-run", "ts": "2026-07-07T09:00:20Z", "kind": "step_complete", "span": "w1", "step": 2, "agent": "worker", "status": "ok", "parent": "planner"}
+{"trace_id": "spawn-run", "ts": "2026-07-07T09:00:31Z", "kind": "step_complete", "span": "w2", "step": 3, "agent": "worker", "status": "ok", "parent": "planner"}
+{"trace_id": "spawn-run", "ts": "2026-07-07T09:00:44Z", "kind": "step_complete", "span": "w1a", "step": 4, "agent": "subworker", "status": "ok", "parent": "w1"}
+{"trace_id": "spawn-run", "ts": "2026-07-07T09:00:45Z", "kind": "trace_end", "span": "root", "step": 5, "agent": "orchestrator", "status": "ok", "parent": null}

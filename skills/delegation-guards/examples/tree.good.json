@@ -1,0 +1,10 @@
+{"nodes": [
+  {"id": "root", "parent": null, "agent": "orchestrator"},
+  {"id": "a", "parent": "root", "agent": "planner"},
+  {"id": "b", "parent": "root", "agent": "researcher"},
+  {"id": "c", "parent": "root", "agent": "coder"},
+  {"id": "a1", "parent": "a", "agent": "subplanner"},
+  {"id": "b1", "parent": "b", "agent": "reader"},
+  {"id": "b2", "parent": "b", "agent": "reader"},
+  {"id": "b1x", "parent": "b1", "agent": "summarizer"}
+]}

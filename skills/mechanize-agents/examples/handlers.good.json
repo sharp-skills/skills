@@ -1,0 +1,9 @@
+{"agents": {
+  "publisher":  {"runtime": "code",   "module": "handlers/git.py",
+                  "events": ["GITHUB_PR_OPENED", "GITHUB_MERGED", "GITHUB_ROLLBACK_DONE"]},
+  "cost_gate":    {"runtime": "hybrid", "module": "handlers/cost.py",
+                  "events": ["COST_GATE_PASSED", "COST_GATE_BLOCKED"],
+                  "defer_status": "ANALYST_REQUIRED"},
+  "session_mgr": {"runtime": "code",   "module": "handlers/session.py",
+                  "events": ["SESSION_SAVED", "CONTEXT_LOADED"]}
+}}

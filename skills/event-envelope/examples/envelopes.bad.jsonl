@@ -1,0 +1,5 @@
+{"trace_id": "run-9c1b", "agent": "coder", "event": "IMPLEMENTATION_COMPLETE", "runtime": "main", "ts": "2026-07-06T11:00:00Z"}
+{"agent": "publisher", "event": "PR_OPENED", "runtime": "code", "ts": "2026-07-06T11:00:04Z"}
+{"trace_id": "run-9c1b", "agent": "qa", "event": "TESTS_PASSED", "runtime": "gpu-farm", "ts": "2026-07-06T11:00:09Z"}
+{"trace_id": "run-9c1b", "agent": "tech-lead", "event": "TECHNICALLY_READY", "runtime": "main", "ts": "2026-07-06T11:00:12Z", "pipeline_mode": "TURBO"}
+{"trace_id": "run-9c1b", "agent": "cost-gate", "event": "GATE_PASSED", "runtime": "main", "ts": "2026-07-06T11:00:15Z", "confidence_score": 150}

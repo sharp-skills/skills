@@ -1,0 +1,33 @@
+{
+  "_fails_because": "capture-at-completion bug: the recorder was hooked to an approval gate instead of run completion, so the loop silently stopped writing — every session since bootstraps on months-old experience. check-staleness must treat this as an error, not a curiosity.",
+  "version": 1,
+  "last_updated": "2026-01-10T09:14:00Z",
+  "agents": {
+    "analyst": {
+      "session_count": 12,
+      "ema_confidence": 76.4,
+      "learnings": [
+        {
+          "ts": "2026-01-08T14:02:00Z",
+          "category": "schema_drift",
+          "insight": "output enum drifted from the registry vocabulary",
+          "outcome": "aligned the schema; added a CI contract check",
+          "retired": false
+        }
+      ]
+    },
+    "engineer": {
+      "session_count": 9,
+      "ema_confidence": 81.2,
+      "learnings": [
+        {
+          "ts": "2026-01-10T09:14:00Z",
+          "category": "oversized_call",
+          "insight": "single call packed two tasks and died at the wrapper timeout",
+          "outcome": "decomposed into two bounded calls",
+          "retired": false
+        }
+      ]
+    }
+  }
+}

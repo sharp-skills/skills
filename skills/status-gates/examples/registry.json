@@ -1,0 +1,5 @@
+{"agents": {
+  "business_analyst": {"publishes": ["BA_COMPLETE", "BA_BLOCKED"]},
+  "cto":              {"publishes": ["TECHNICALLY_READY", "IMPLEMENTATION_STARTED", "BLOCKED"]},
+  "event_bus":        {"publishes": []}
+}}

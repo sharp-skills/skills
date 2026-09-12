@@ -1,0 +1,8 @@
+# A dispatcher that has gained a sixth runtime ("remote-gpu") the envelope
+# schema doesn't know yet — the classic drift: events route but fail the wire.
+main
+worker
+verifier
+browser
+code
+remote-gpu

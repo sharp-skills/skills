@@ -1,0 +1,15 @@
+{"nodes": [
+  {"id": "root", "parent": null, "agent": "orchestrator"},
+  {"id": "w", "parent": "root", "agent": "fanner"},
+  {"id": "w1", "parent": "w", "agent": "x"},
+  {"id": "w2", "parent": "w", "agent": "x"},
+  {"id": "w3", "parent": "w", "agent": "x"},
+  {"id": "w4", "parent": "w", "agent": "x"},
+  {"id": "w5", "parent": "w", "agent": "x"},
+  {"id": "d1", "parent": "root", "agent": "deep"},
+  {"id": "d2", "parent": "d1", "agent": "deep"},
+  {"id": "d3", "parent": "d2", "agent": "deep"},
+  {"id": "d4", "parent": "d3", "agent": "deep"},
+  {"id": "cyc1", "parent": "cyc2", "agent": "loop"},
+  {"id": "cyc2", "parent": "cyc1", "agent": "loop"}
+]}

@@ -1,0 +1,5 @@
+{"root": "demo",
+ "registry": {"file": "registry.json", "agents_path": "agents"},
+ "agents": {
+   "BA": {"registry_id": "business_analyst", "schema": "schemas/ba_output.clean.json", "prompts": ["prompts/no_such_file_*.md"]}
+ }}

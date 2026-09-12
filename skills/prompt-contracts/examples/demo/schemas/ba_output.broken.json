@@ -1,0 +1,5 @@
+{"type": "object",
+ "oneOf": [
+   {"properties": {"status": {"enum": ["BA_COMPLETE"]}}},
+   {"properties": {"status": {"enum": ["SUCCESS"]}}}
+ ]}

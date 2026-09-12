@@ -1,0 +1,8 @@
+{"agents": {
+  "publisher":  {"runtime": "code",   "module": "handlers/git.py",
+                  "events": ["GITHUB_PR_OPENED", "GITHUB_FORCE_PUSHED"]},
+  "cost_gate":    {"runtime": "hybrid", "module": "handlers/cost.py",
+                  "events": ["COST_GATE_PASSED"],
+                  "defer_status": "ANALYSIS_COMPLETE"},
+  "ghost_agent": {"runtime": "code", "module": "handlers/ghost.py", "events": []}
+}}

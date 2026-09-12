@@ -1,0 +1,14 @@
+{
+  "agent_scores": {
+    "analyst": 100.0,
+    "engineer": 100.0,
+    "reviewer": 100.0
+  },
+  "flags": [],
+  "min_score": 80.0,
+  "overall": 100.0,
+  "saved_at": "2026-07-05T19:23:33.099871Z",
+  "scored_events": 3,
+  "trace": "demo-run-001.jsonl",
+  "version": 1
+}

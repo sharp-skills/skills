@@ -1,0 +1,9 @@
+{"verdict": "FAIL",
+ "findings": [
+   {"severity": "HIGH",   "location": "blueprint §3 auth flow",
+    "claim": "no token revocation path",
+    "fix_direction": "add revoke endpoint + single-use refresh tokens"},
+   {"severity": "MEDIUM", "location": "acceptance criteria",
+    "claim": "latency criterion untestable as written",
+    "fix_direction": "state percentile and load profile"}
+ ]}

@@ -1,0 +1,11 @@
+{"nodes": [
+  {"id": "root", "parent": null, "agent": "orchestrator"},
+  {"id": "p", "parent": "root", "agent": "fanner"},
+  {"id": "p1", "parent": "p", "agent": "worker"},
+  {"id": "p2", "parent": "p", "agent": "worker"},
+  {"id": "p3", "parent": "p", "agent": "worker"},
+  {"id": "p4", "parent": "p", "agent": "worker"},
+  {"id": "deep1", "parent": "root", "agent": "chain"},
+  {"id": "deep2", "parent": "deep1", "agent": "chain"},
+  {"id": "deep3", "parent": "deep2", "agent": "chain"}
+]}

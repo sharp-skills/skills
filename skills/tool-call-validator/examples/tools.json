@@ -1,0 +1,18 @@
+{
+  "tools": {
+    "bash": {
+      "required": ["command"],
+      "destructive_patterns": ["rm -rf", "\\bdrop\\s+table\\b", "\\btruncate\\b", "mkfs", "> /dev/sd"]
+    },
+    "write_file": {
+      "required": ["path", "content"],
+      "destructive": true
+    },
+    "read_file": {
+      "required": ["path"]
+    },
+    "http_get": {
+      "required": ["url"]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# A plausible log from a system that "works" until the first crash. Every line
+# is the kind of record a real implementation emits, not malformed junk — each
+# one carries _fails_because so the fixture's intent stays auditable.
+{"session_id":"s-9c40","action_id":"b01","kind":"user_prompt","status":"ok","prompt":"Where are you travelling and what is the budget?","_fails_because":"answer never recorded — recovery re-asks the human a question from two weeks ago"}
+{"session_id":"s-9c40","action_id":"b02","kind":"llm_call","status":"ok","model":"main","_fails_because":"no recorded result — replay re-calls the model and the session diverges"}
+{"session_id":"s-9c40","action_id":"b03","kind":"payment","status":"ok","amount_gbp":2180,"result":{"charge":"ch_44a1"},"_fails_because":"no idempotency_key and not replay=skip — recovery charges the card twice"}
+{"session_id":"s-9c40","action_id":"b04","kind":"tool_call","status":"error","retryable":true,"attempts":19,"_fails_because":"unbounded retry — burns budget forever instead of asking the human"}
+{"session_id":"s-9c40","action_id":"b05","kind":"tool_call","status":"error","retryable":true,"max_attempts":3,"attempts":7,"_fails_because":"already overran its own cap"}
+{"session_id":"s-9c40","action_id":"b06","kind":"user_prompt","status":"ok","result":{"seat":"aisle"},"cacheable":true,"cache_key":"seat-pref","ttl_s":3600,"_fails_because":"one traveller's answer reused for everyone else"}
+{"session_id":"s-9c40","action_id":"b07","kind":"external_read","status":"ok","result":{"quotes":2},"cacheable":true,"_fails_because":"cacheable with no cache_key and no ttl_s — a stale answer with no way to expire it"}
+{"session_id":"s-9c40","action_id":"b08","kind":"tool_call","status":"error","retryable":false,"error":"visa check failed","_fails_because":"strict mode only: dead end with no on_failure instruction"}
+{"session_id":"s-9c40","action_id":"b02","kind":"clock","status":"ok","result":{"now":"2026-11-01T09:14:00Z"},"_fails_because":"duplicate action_id — replay applies the wrong recorded result"}
+{"session_id":"s-9c40","kind":"llm_call","status":"ok","result":{},"_fails_because":"no action_id at all — nothing to key the replay on"}

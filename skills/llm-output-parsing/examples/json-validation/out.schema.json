@@ -1,0 +1,8 @@
+{
+  "required": ["action", "confidence"],
+  "properties": {
+    "action": {"type": "string", "enum": ["approve", "reject", "revise"]},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 100},
+    "reason": {"type": "string"}
+  }
+}

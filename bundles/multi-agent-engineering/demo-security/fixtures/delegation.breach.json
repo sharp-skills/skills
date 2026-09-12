@@ -1,0 +1,8 @@
+{"nodes": [
+  {"id": "root", "parent": null, "agent": "orchestrator"},
+  {"id": "coder", "parent": "root", "agent": "coder"},
+  {"id": "e1", "parent": "coder", "agent": "exfil-worker"},
+  {"id": "e2", "parent": "coder", "agent": "exfil-worker"},
+  {"id": "e3", "parent": "coder", "agent": "exfil-worker"},
+  {"id": "e4", "parent": "coder", "agent": "exfil-worker"}
+]}

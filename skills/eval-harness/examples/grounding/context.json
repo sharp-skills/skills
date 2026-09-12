@@ -1,0 +1,7 @@
+{
+  "sources": {
+    "s1": {"text": "Q2 revenue increased 12% year over year, driven by enterprise subscriptions."},
+    "s2": {"text": "The engineering team shipped the new billing pipeline in June."},
+    "s3": {"text": "Customer churn held steady at 3% through the quarter."}
+  }
+}

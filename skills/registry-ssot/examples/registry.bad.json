@@ -1,0 +1,15 @@
+{
+  "bus_derives_from_registry": true,
+  "entry_events": ["GOAL_RECEIVED"],
+  "terminal_events": ["RUN_ARCHIVED"],
+  "agents": [
+    {"id": "analyst",  "publishes": ["ANALYSIS_COMPLETE"], "subscribes_to": ["GOAL_RECEIVED"]},
+    {"id": "engineer", "publishes": ["BUILD_COMPLETE"],    "subscribes_to": ["ANALYSIS_DONE"]},
+    {"id": "reviewer", "publishes": ["RUN_ARCHIVED"],      "subscribes_to": ["LEGACY_EVENT"]}
+  ],
+  "bus_graph": {
+    "GOAL_RECEIVED":     ["analyst"],
+    "ANALYSIS_COMPLETE": [],
+    "RUN_ARCHIVED":      []
+  }
+}

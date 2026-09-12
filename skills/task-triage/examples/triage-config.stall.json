@@ -1,0 +1,78 @@
+{
+  "core": [
+    "analyst",
+    "planner",
+    "engineer",
+    "reviewer",
+    "closer"
+  ],
+  "groups": {
+    "legal": [
+      "legal"
+    ],
+    "creative": [
+      "designer",
+      "copywriter"
+    ],
+    "infra": [
+      "devops"
+    ],
+    "growth": [
+      "marketer"
+    ]
+  },
+  "templates": {
+    "code-utility": [],
+    "feature": [
+      "infra"
+    ],
+    "website": [
+      "creative",
+      "growth"
+    ],
+    "content": [],
+    "full": [
+      "legal",
+      "creative",
+      "infra",
+      "growth"
+    ]
+  },
+  "default_template": "full",
+  "template_keywords": [
+    [
+      "content",
+      "(blog|article|post|newsletter|\u043a\u043e\u043d\u0442\u0435\u043d\u0442|\u0441\u0442\u0430\u0442\u044c\u044f|\u043f\u043e\u0441\u0442)"
+    ],
+    [
+      "website",
+      "(website|landing|homepage|\u0441\u0430\u0439\u0442|\u043b\u0435\u043d\u0434\u0438\u043d\u0433)"
+    ],
+    [
+      "code-utility",
+      "(function|utility|helper|snippet|\u0444\u0443\u043d\u043a\u0446\u0438|\u0443\u0442\u0438\u043b\u0438\u0442)"
+    ],
+    [
+      "feature",
+      "(feature|api|endpoint|integration|\u0444\u0438\u0447\u0430|\u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438)"
+    ]
+  ],
+  "force_rules": [
+    [
+      "legal",
+      "(pii|gdpr|payment|billing|stripe|compliance|\u043e\u043f\u043b\u0430\u0442|\u043f\u043b\u0430\u0442\u0435\u0436|\u043f\u043b\u0430\u0442\u0451\u0436|\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d)"
+    ]
+  ],
+  "short_routes": {
+    "content": {
+      "core": [
+        "analyst",
+        "copywriter"
+      ],
+      "extras": {
+        "creative": "(image|banner|\u043a\u0430\u0440\u0442\u0438\u043d\u043a|\u0431\u0430\u043d\u043d\u0435\u0440)"
+      }
+    }
+  },
+  "registry_agents_path": "agents"
+}

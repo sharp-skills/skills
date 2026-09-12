@@ -1,0 +1,23 @@
+{
+  "forbidden_identities": ["owner-primary-email", "owner-bank", "owner-password-manager", "work-sso"],
+  "sessions": {
+    "reader": {
+      "identity": "agent-scoped",
+      "approval_required": false,
+      "capabilities": ["web_read", "inbound_dm", "rss_feed", "local_scratch"],
+      "_note": "reads untrusted content but holds no account and cannot send — no trifecta"
+    },
+    "operator": {
+      "identity": "agent-scoped",
+      "approval_required": true,
+      "capabilities": ["logged_in_browser", "send_dm"],
+      "_note": "sensitive + exfil, but self-initiated only: no untrusted input, and sends are human-gated"
+    },
+    "compute": {
+      "identity": "agent-scoped",
+      "approval_required": false,
+      "capabilities": ["code_exec_sandboxed", "calculator", "local_scratch"],
+      "_note": "no legs at all"
+    }
+  }
+}

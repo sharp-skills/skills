@@ -1,0 +1,15 @@
+{"_fails_because": "the documented review anti-patterns in one plausible output: a 0-100 score instead of a pass/fail verdict (invites negotiation), four findings over the cap of three (padding with trivia), an invented severity level, and a finding with no fix direction (names a problem, helps nobody).",
+ "verdict": "SCORE_74",
+ "findings": [
+   {"severity": "HIGH", "location": "auth/session.py:42",
+    "claim": "session token is compared with == instead of a constant-time compare",
+    "fix_direction": "use hmac.compare_digest for the token check"},
+   {"severity": "NIT",  "location": "api/routes.py:117",
+    "claim": "handler name get_data is vague",
+    "fix_direction": "rename to reflect the resource it serves"},
+   {"severity": "LOW",  "location": "worker/retry.py:31",
+    "claim": "retry delay is linear where the queue doc promises exponential backoff"},
+   {"severity": "LOW",  "location": "README.md",
+    "claim": "setup section omits the required env var",
+    "fix_direction": "document the variable and its default"}
+ ]}

@@ -1,0 +1,5 @@
+{"targets": [
+  {"name": "verdict", "kind": "enum", "values": ["approve", "reject", "revise"]},
+  {"name": "score", "kind": "number", "min": 0, "max": 100},
+  {"name": "blocking", "kind": "boolean"}
+]}

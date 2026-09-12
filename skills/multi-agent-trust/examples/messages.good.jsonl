@@ -1,0 +1,4 @@
+{"id": "m1", "claimed_source": "human", "channel": "human", "asks": ["change_credentials"]}
+{"id": "m2", "claimed_source": "orchestrator", "channel": "authenticated", "asks": ["assign_task"]}
+{"id": "m3", "claimed_source": "agent", "channel": "peer", "asks": ["read_file", "summarize"]}
+{"id": "m4", "claimed_source": "content", "channel": "env", "asks": []}

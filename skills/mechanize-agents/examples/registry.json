@@ -1,0 +1,6 @@
+{"agents": {
+  "publisher": {"runtime": "code",   "publishes": ["GITHUB_PR_OPENED", "GITHUB_MERGED", "GITHUB_ROLLBACK_DONE"]},
+  "cost_gate":   {"runtime": "hybrid", "publishes": ["COST_GATE_PASSED", "COST_GATE_BLOCKED"]},
+  "session_mgr":{"runtime": "code",   "publishes": ["SESSION_SAVED", "CONTEXT_LOADED"]},
+  "analyst":    {"publishes": ["ANALYSIS_COMPLETE"]}
+}}

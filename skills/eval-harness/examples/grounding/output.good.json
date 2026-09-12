@@ -1,0 +1,8 @@
+{
+  "claims": [
+    {"id": "c1", "text": "Q2 revenue increased 12% year over year.", "sources": ["s1"]},
+    {"id": "c2", "text": "Growth was driven by enterprise subscriptions.", "sources": ["s1"]},
+    {"id": "c3", "text": "The engineering team shipped the new billing pipeline in June.", "sources": ["s2"]},
+    {"id": "c4", "text": "Customer churn held steady through the quarter.", "sources": ["s3"]}
+  ]
+}

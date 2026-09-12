@@ -1,0 +1,22 @@
+name: bundle — multi-agent-engineering
+
+# Every skill's self-test plus both composition demos, on every push and PR
+# that touches the collection. Stdlib Python only — nothing to install.
+
+on:
+  push:
+    paths: ['skills/**', 'bundles/multi-agent-engineering/**']
+  pull_request:
+    paths: ['skills/**', 'bundles/multi-agent-engineering/**']
+  workflow_dispatch: {}
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Self-tests + composition demos
+        run: sh bundles/multi-agent-engineering/bundle_check.sh

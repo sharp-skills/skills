@@ -1,0 +1,3 @@
+{"trace_id": "golden-contract", "ts": "2026-07-05T12:30:00Z", "kind": "trace_start", "span": "root", "step": 0, "agent": "orchestrator", "status": "started", "input_tokens": 0, "output_tokens": 0, "parent": null}
+{"trace_id": "golden-contract", "ts": "2026-07-05T12:30:10Z", "kind": "step_complete", "span": "s1", "step": 1, "agent": "reviewer", "tool": null, "status": "ok", "input_tokens": 700, "output_tokens": 200, "parent": "root", "meta": {"confidence": 0.9, "schema_valid": true}}
+{"trace_id": "golden-contract", "ts": "2026-07-05T12:30:11Z", "kind": "trace_end", "span": "root", "step": 2, "agent": "orchestrator", "status": "ok", "input_tokens": 0, "output_tokens": 0, "parent": null}

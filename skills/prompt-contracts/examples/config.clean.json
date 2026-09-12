@@ -1,0 +1,9 @@
+{"root": "demo",
+ "registry": {"file": "registry.json", "agents_path": "agents"},
+ "extra_allowed": ["PIPELINE_FAILED"],
+ "allowed_suffixes": ["_SKIPPED"],
+ "exempt": [],
+ "agents": {
+   "BA":  {"registry_id": "business_analyst", "schema": "schemas/ba_output.clean.json", "prompts": ["prompts/ba_prompt.md"]},
+   "CTO": {"registry_id": "cto", "schema": "schemas/cto_output.json", "prompts": ["prompts/cto_prompt.clean.md"]}
+ }}

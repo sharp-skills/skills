@@ -1,0 +1,2 @@
+{"required_fields": ["objective", "files_to_modify", "no_touch_zones", "acceptance_criteria"],
+ "conflict_pairs": [["no_touch_zones", "files_to_modify"]]}

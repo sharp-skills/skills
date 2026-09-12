@@ -1,0 +1,4 @@
+{"trace_id": "run-7f3a", "agent": "coder", "event": "IMPLEMENTATION_COMPLETE", "runtime": "main", "ts": "2026-07-06T10:15:00Z", "pipeline_mode": "STANDARD", "confidence_score": 82, "payload": {"files": 3}}
+{"trace_id": "run-7f3a", "agent": "publisher", "event": "PR_OPENED", "runtime": "code", "ts": "2026-07-06T10:15:04Z"}
+{"trace_id": "run-7f3a", "agent": "qa", "event": "TESTS_PASSED", "runtime": "verifier", "ts": "2026-07-06T10:15:09Z", "confidence_score": null}
+{"trace_id": "run-7f3a", "agent": "messenger", "event": "NOTIFIED", "runtime": "browser", "ts": "2026-07-06T10:15:12Z"}

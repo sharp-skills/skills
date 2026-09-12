@@ -1,0 +1,8 @@
+# Canonical runtime set the dispatcher routes on — the single source of truth.
+# Exported from the router, not hand-kept. The envelope schema's runtime enum
+# must equal this set exactly (envelope_check.py --runtimes-source).
+main
+worker
+verifier
+browser
+code

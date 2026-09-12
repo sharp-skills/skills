@@ -1,0 +1,8 @@
+{
+  "entry_events": ["GOAL_RECEIVED"],
+  "terminal_events": ["TECHNICALLY_READY"],
+  "agents": [
+    {"id": "business_analyst", "publishes": ["BA_COMPLETE", "BA_BLOCKED"], "subscribes_to": ["GOAL_RECEIVED"]},
+    {"id": "cto",              "publishes": ["TECHNICALLY_READY", "BLOCKED"], "subscribes_to": ["BA_COMPLETE"]}
+  ]
+}

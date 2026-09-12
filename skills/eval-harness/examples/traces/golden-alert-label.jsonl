@@ -1,0 +1,3 @@
+{"trace_id": "golden-alert-label", "ts": "2026-07-05T12:10:00Z", "kind": "trace_start", "span": "root", "step": 0, "agent": "orchestrator", "status": "started", "input_tokens": 0, "output_tokens": 0, "parent": null}
+{"trace_id": "golden-alert-label", "ts": "2026-07-05T12:10:10Z", "kind": "step_complete", "span": "s1", "step": 1, "agent": "engineer", "tool": null, "status": "ok", "input_tokens": 900, "output_tokens": 300, "parent": "root", "meta": {"confidence": 0.9, "schema_valid": true, "alerts": ["policy_violation"]}}
+{"trace_id": "golden-alert-label", "ts": "2026-07-05T12:10:11Z", "kind": "trace_end", "span": "root", "step": 2, "agent": "orchestrator", "status": "ok", "input_tokens": 0, "output_tokens": 0, "parent": null}

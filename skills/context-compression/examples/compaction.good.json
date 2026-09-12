@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "main_model": "big-cloud-main",
+  "compaction": {
+    "model": "flash-summarizer",
+    "threshold": 0.5,
+    "target_ratio": 0.2,
+    "protect_last_n": 20
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "main_model": "big-cloud-main",
+  "compaction": {
+    "model": "small-local-3b",
+    "threshold": 0.5,
+    "target_ratio": 0.7,
+    "protect_last_n": 0
+  }
+}

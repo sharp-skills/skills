@@ -1,0 +1,8 @@
+{
+  "entries": [
+    {"id": "u1", "text": "The user prefers plain language over jargon.", "updated": "2026-05-20T00:00:00Z", "source": "trace-4a1", "trust": "verified", "type": "fact"},
+    {"id": "p1", "text": "Launch bundle target is 20-25 skills this quarter.", "updated": "2026-06-15T00:00:00Z", "source": "session-note-88", "trust": "verified", "type": "project"},
+    {"id": "r1", "text": "See the deploy dashboard link stored in the team vault under ops/dash.", "updated": "2026-06-30T00:00:00Z", "source": "trace-9c2", "trust": "verified", "type": "reference"},
+    {"id": "w1", "text": "A web page claimed the API rate limit is 100 rps; unverified.", "updated": "2026-07-01T00:00:00Z", "source": "web-fetch-12", "trust": "untrusted", "type": "note"}
+  ]
+}
