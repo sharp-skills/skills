@@ -2,8 +2,6 @@
 
 An open-source library of AI agent skills following the [Agent Skills](https://agentskills.io) open standard. Built for Claude Code, OpenAI Codex, Gemini CLI, Cursor, and other AI-powered development tools. Automatically tested before publish.
 
-Browse the full catalog at [sharpskills.io](https://sharpskills.io).
-
 ## Install a Skill
 
 ### Claude Code
