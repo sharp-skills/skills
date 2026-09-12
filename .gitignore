@@ -24,24 +24,5 @@ test_reports/
 *.swp
 .cache/
 
-# Dev scripts (kept locally, not for public repo)
-sharpskill*.py
-test_bot.py
-batch_run.py
-dedup.py
-batch_results.json
-tools_batch1.txt
-tools_priority.txt
-repo_backup.md
-test_reports/
-
-# One-time utility scripts
-fix_license.py
-apply_patches.py
-
-# Draft test artifacts
-drafts/**/test_report.json
-drafts/_todo/
-drafts/_todo/
-regen_skills.py
-regen_todo.sh
+# Run artefacts of the bundle audit
+.context/
