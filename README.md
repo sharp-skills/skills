@@ -7,29 +7,29 @@ An open-source library of AI agent skills following the [Agent Skills](https://a
 ### Claude Code
 
 ```bash
-curl -sL https://raw.githubusercontent.com/sharp-skills/skills/main/skills/tool-call-validator/SKILL.md \
-  -o .claude/skills/tool-call-validator.md
+curl -sL --create-dirs https://raw.githubusercontent.com/sharp-skills/skills/main/skills/tool-call-validator/SKILL.md \
+  -o .claude/skills/tool-call-validator/SKILL.md
 ```
 
 ### OpenAI Codex
 
 ```bash
-curl -sL https://raw.githubusercontent.com/sharp-skills/skills/main/skills/tool-call-validator/SKILL.md \
-  -o .codex/skills/tool-call-validator.md
+curl -sL --create-dirs https://raw.githubusercontent.com/sharp-skills/skills/main/skills/tool-call-validator/SKILL.md \
+  -o .agents/skills/tool-call-validator/SKILL.md
 ```
 
 ### Gemini CLI
 
 ```bash
-curl -sL https://raw.githubusercontent.com/sharp-skills/skills/main/skills/tool-call-validator/SKILL.md \
-  -o .gemini/skills/tool-call-validator.md
+curl -sL --create-dirs https://raw.githubusercontent.com/sharp-skills/skills/main/skills/tool-call-validator/SKILL.md \
+  -o .gemini/skills/tool-call-validator/SKILL.md
 ```
 
 ### Cursor
 
 ```bash
-curl -sL https://raw.githubusercontent.com/sharp-skills/skills/main/skills/tool-call-validator/SKILL.md \
-  -o .cursor/skills/tool-call-validator.md
+curl -sL --create-dirs https://raw.githubusercontent.com/sharp-skills/skills/main/skills/tool-call-validator/SKILL.md \
+  -o .cursor/skills/tool-call-validator/SKILL.md
 ```
 
 Replace `tool-call-validator` with the skill name you want to install.
